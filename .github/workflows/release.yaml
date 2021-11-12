@@ -2,7 +2,7 @@ name: releaser
 on:
   push:
     tags:
-      - 'v*'
+      - 'vvvvv*'
 jobs:
   release-init-kyverno:
     runs-on: ubuntu-latest
