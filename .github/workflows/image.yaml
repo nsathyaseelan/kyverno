@@ -2,8 +2,7 @@ name: image
 on:
   push:
     branches:
-      - 'main'
-      - 'release-*'
+      - 'release-n4k-*'
 jobs:
   push-init-kyverno:
     runs-on: ubuntu-latest
@@ -17,12 +16,12 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
-          go-version: 1.16
+          go-version: 1.17
 
-      - name: Install Cosign
-        uses: sigstore/cosign-installer@main
-        with:
-          cosign-release: 'v1.2.1'
+      # - name: Install Cosign
+      #   uses: sigstore/cosign-installer@main
+      #   with:
+      #     cosign-release: 'v1.2.1'
 
       - name: login to GitHub Container Registry
         run: echo ${{ secrets.CR_PAT }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
@@ -37,10 +36,10 @@ jobs:
         run: |
           make docker-publish-initContainer
 
-      - name: Sign image
-        run: |
-          KYVERNO_IMAGE_VERSION=$(git describe --match "v[0-9]*")
-          echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/kyverno/kyvernopre:${KYVERNO_IMAGE_VERSION}
+      # - name: Sign image
+      #   run: |
+      #     KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
+      #     echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyvernopre:${KYVERNO_IMAGE_VERSION}
 
   push-kyverno:
     runs-on: ubuntu-latest
@@ -54,12 +53,12 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
-          go-version: 1.16
+          go-version: 1.17
 
-      - name: Install Cosign
-        uses: sigstore/cosign-installer@main
-        with:
-          cosign-release: 'v1.2.1'
+      # - name: Install Cosign
+      #   uses: sigstore/cosign-installer@main
+      #   with:
+      #     cosign-release: 'v1.2.1'
 
       - name: login to GitHub Container Registry
         run: echo ${{ secrets.CR_PAT }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
@@ -74,10 +73,10 @@ jobs:
         run: |
           make docker-publish-kyverno
 
-      - name: Sign image
-        run: |
-          KYVERNO_IMAGE_VERSION=$(git describe --match "v[0-9]*")
-          echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/kyverno/kyverno:${KYVERNO_IMAGE_VERSION}
+      # - name: Sign image
+      #   run: |
+      #     KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
+      #     echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyverno:${KYVERNO_IMAGE_VERSION}
 
   push-kyverno-cli:
     runs-on: ubuntu-latest
@@ -91,12 +90,12 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
-          go-version: 1.16
+          go-version: 1.17
 
-      - name: Install Cosign
-        uses: sigstore/cosign-installer@main
-        with:
-          cosign-release: 'v1.2.1'
+      # - name: Install Cosign
+      #   uses: sigstore/cosign-installer@main
+      #   with:
+      #     cosign-release: 'v1.2.1'
 
       - name: login to GitHub Container Registry
         run: echo ${{ secrets.CR_PAT }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
@@ -111,7 +110,7 @@ jobs:
         run: |
           make docker-publish-cli
 
-      - name: Sign image
-        run: |
-          KYVERNO_IMAGE_VERSION=$(git describe --match "v[0-9]*")
-          echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/kyverno/kyverno-cli:${KYVERNO_IMAGE_VERSION}
+      # - name: Sign image
+      #   run: |
+      #     KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
+      #     echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyverno-cli:${KYVERNO_IMAGE_VERSION}
