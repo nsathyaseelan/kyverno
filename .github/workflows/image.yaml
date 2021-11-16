@@ -18,10 +18,10 @@ jobs:
         with:
           go-version: 1.17
 
-      # - name: Install Cosign
-      #   uses: sigstore/cosign-installer@main
-      #   with:
-      #     cosign-release: 'v1.2.1'
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@main
+        with:
+          cosign-release: 'v1.2.1'
 
       - name: login to GitHub Container Registry
         run: echo ${{ secrets.SHUTING_PAT }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
@@ -38,10 +38,10 @@ jobs:
           echo $KYVERNO_IMAGE_VERSION
           make docker-publish-initContainer
 
-      # - name: Sign image
-      #   run: |
-      #     KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
-      #     echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyvernopre:${KYVERNO_IMAGE_VERSION}
+      - name: Sign image
+        run: |
+          KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
+          echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyvernopre:${KYVERNO_IMAGE_VERSION}
 
   push-kyverno:
     runs-on: ubuntu-latest
@@ -57,10 +57,10 @@ jobs:
         with:
           go-version: 1.17
 
-      # - name: Install Cosign
-      #   uses: sigstore/cosign-installer@main
-      #   with:
-      #     cosign-release: 'v1.2.1'
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@main
+        with:
+          cosign-release: 'v1.2.1'
 
       - name: login to GitHub Container Registry
         run: echo ${{ secrets.SHUTING_PAT }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
@@ -75,10 +75,10 @@ jobs:
         run: |
           make docker-publish-kyverno
 
-      # - name: Sign image
-      #   run: |
-      #     KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
-      #     echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyverno:${KYVERNO_IMAGE_VERSION}
+      - name: Sign image
+        run: |
+          KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
+          echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyverno:${KYVERNO_IMAGE_VERSION}
 
   push-kyverno-cli:
     runs-on: ubuntu-latest
@@ -94,10 +94,10 @@ jobs:
         with:
           go-version: 1.17
 
-      # - name: Install Cosign
-      #   uses: sigstore/cosign-installer@main
-      #   with:
-      #     cosign-release: 'v1.2.1'
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@main
+        with:
+          cosign-release: 'v1.2.1'
 
       - name: login to GitHub Container Registry
         run: echo ${{ secrets.SHUTING_PAT }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
@@ -112,7 +112,7 @@ jobs:
         run: |
           make docker-publish-cli
 
-      # - name: Sign image
-      #   run: |
-      #     KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
-      #     echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyverno-cli:${KYVERNO_IMAGE_VERSION}
+      - name: Sign image
+        run: |
+          KYVERNO_IMAGE_VERSION=$(git describe --match "v*-n4k*")
+          echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign -key <(echo -n "${{ secrets.KYVERNO_COSIGN_PRIVATE_KEY }}") ghcr.io/nirmata/kyverno-cli:${KYVERNO_IMAGE_VERSION}
