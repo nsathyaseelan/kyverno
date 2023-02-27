@@ -4,13 +4,13 @@ metadata:
   name: kyverno
 spec:
   version: {{ .TagName }}
-  homepage: https://github.com/nsathyaseelan/kyverno
+  homepage: https://github.com/kyverno/kyverno
   platforms:
     - selector:
         matchLabels:
           os: linux
           arch: amd64
-      {{addURIAndSha "https://github.com/nsathyaseelan/kyverno/releases/download/{{ .TagName }}/kyverno-cli_{{ .TagName }}_linux_x86_64.tar.gz" .TagName | indent 6 }}
+      {{addURIAndSha "https://github.com/kyverno/kyverno/releases/download/{{ .TagName }}/kyverno-cli_{{ .TagName }}_linux_x86_64.tar.gz" .TagName | indent 6 }}
       files:
         - from: kyverno
           to: .
@@ -21,7 +21,7 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      {{addURIAndSha "https://github.com/nsathyaseelan/kyverno/releases/download/{{ .TagName }}/kyverno-cli_{{ .TagName }}_darwin_x86_64.tar.gz" .TagName | indent 6 }}
+      {{addURIAndSha "https://github.com/kyverno/kyverno/releases/download/{{ .TagName }}/kyverno-cli_{{ .TagName }}_darwin_x86_64.tar.gz" .TagName | indent 6 }}
       files:
         - from: kyverno
           to: .
@@ -32,7 +32,7 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-      {{addURIAndSha "https://github.com/nsathyaseelan/kyverno/releases/download/{{ .TagName }}/kyverno-cli_{{ .TagName }}_darwin_arm64.tar.gz" .TagName | indent 6 }}
+      {{addURIAndSha "https://github.com/kyverno/kyverno/releases/download/{{ .TagName }}/kyverno-cli_{{ .TagName }}_darwin_arm64.tar.gz" .TagName | indent 6 }}
       files:
         - from: kyverno
           to: .
@@ -43,7 +43,7 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      {{addURIAndSha "https://github.com/nsathyaseelan/kyverno/releases/download/{{ .TagName }}/kyverno-cli_{{ .TagName }}_windows_x86_64.zip" .TagName | indent 6 }}
+      {{addURIAndSha "https://github.com/kyverno/kyverno/releases/download/{{ .TagName }}/kyverno-cli_{{ .TagName }}_windows_x86_64.zip" .TagName | indent 6 }}
       files:
         - from: kyverno.exe
           to: .

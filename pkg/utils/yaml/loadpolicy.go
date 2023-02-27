@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	log "github.com/nsathyaseelan/kyverno/pkg/logging"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	log "github.com/kyverno/kyverno/pkg/logging"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/yaml"

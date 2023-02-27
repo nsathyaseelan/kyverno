@@ -3,10 +3,10 @@ package api
 import (
 	"testing"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/config"
-	imageutils "github.com/nsathyaseelan/kyverno/pkg/utils/image"
-	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/config"
+	imageutils "github.com/kyverno/kyverno/pkg/utils/image"
+	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
 	"gotest.tools/assert"
 )
 

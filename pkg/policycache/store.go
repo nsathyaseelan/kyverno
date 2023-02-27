@@ -3,9 +3,9 @@ package policycache
 import (
 	"sync"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/autogen"
-	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/autogen"
+	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
 	"k8s.io/apimachinery/pkg/util/sets"
 	kcache "k8s.io/client-go/tools/cache"
 )

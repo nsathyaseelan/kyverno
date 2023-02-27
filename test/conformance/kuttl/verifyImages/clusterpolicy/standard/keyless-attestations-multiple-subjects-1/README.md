@@ -8,4 +8,4 @@ Given the defined predicateType, the image's subject and issuer match as well as
 
 ## Reference Issue(s)
 
-https://github.com/nsathyaseelan/kyverno/issues/4847
+https://github.com/kyverno/kyverno/issues/4847

@@ -1,7 +1,7 @@
 package match
 
 import (
-	"github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
+	"github.com/kyverno/kyverno/pkg/utils/wildcard"
 )
 
 func CheckAnnotations(expected map[string]string, actual map[string]string) bool {

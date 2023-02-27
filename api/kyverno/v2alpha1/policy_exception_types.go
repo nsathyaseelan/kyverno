@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"regexp"
 
-	kyvernov2beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2beta1"
+	kyvernov2beta1 "github.com/kyverno/kyverno/api/kyverno/v2beta1"
 	"golang.org/x/exp/slices"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/validation/field"

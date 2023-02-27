@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	jsonutils "github.com/nsathyaseelan/kyverno/pkg/utils/json"
-	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	jsonutils "github.com/kyverno/kyverno/pkg/utils/json"
+	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
 	"golang.org/x/exp/slices"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"

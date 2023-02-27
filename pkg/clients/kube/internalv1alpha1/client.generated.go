@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	storageversions "github.com/nsathyaseelan/kyverno/pkg/clients/kube/internalv1alpha1/storageversions"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	storageversions "github.com/kyverno/kyverno/pkg/clients/kube/internalv1alpha1/storageversions"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_apiserverinternal_v1alpha1 "k8s.io/client-go/kubernetes/typed/apiserverinternal/v1alpha1"
 	"k8s.io/client-go/rest"
 )

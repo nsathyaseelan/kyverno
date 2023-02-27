@@ -3,7 +3,7 @@ package context
 import (
 	"fmt"
 
-	engineutils "github.com/nsathyaseelan/kyverno/pkg/engine/utils"
+	engineutils "github.com/kyverno/kyverno/pkg/engine/utils"
 )
 
 // MutateResourceWithImageInfo will set images to their canonical form so that they can be compared

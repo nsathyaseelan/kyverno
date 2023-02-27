@@ -6,8 +6,8 @@ import (
 	"encoding/pem"
 	"time"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/config"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/config"
 	corev1 "k8s.io/api/core/v1"
 )
 

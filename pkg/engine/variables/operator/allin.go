@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/operator"
-	wildcard "github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
+	"github.com/kyverno/kyverno/pkg/engine/context"
+	"github.com/kyverno/kyverno/pkg/engine/operator"
+	wildcard "github.com/kyverno/kyverno/pkg/utils/wildcard"
 )
 
 // NewAllInHandler returns handler to manage AllIn operations

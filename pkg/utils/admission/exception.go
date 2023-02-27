@@ -3,7 +3,7 @@ package admission
 import (
 	"encoding/json"
 
-	kyvernov2alpha1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
+	kyvernov2alpha1 "github.com/kyverno/kyverno/api/kyverno/v2alpha1"
 	admissionv1 "k8s.io/api/admission/v1"
 )
 

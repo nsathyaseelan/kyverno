@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
 	"gotest.tools/assert"
 	corev1 "k8s.io/api/core/v1"
 )

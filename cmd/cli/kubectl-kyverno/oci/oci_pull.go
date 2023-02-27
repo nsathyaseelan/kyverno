@@ -10,8 +10,8 @@ import (
 	securejoin "github.com/cyphar/filepath-securejoin"
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/google/go-containerregistry/pkg/v1/remote"
-	policyutils "github.com/nsathyaseelan/kyverno/pkg/utils/policy"
-	yamlutils "github.com/nsathyaseelan/kyverno/pkg/utils/yaml"
+	policyutils "github.com/kyverno/kyverno/pkg/utils/policy"
+	yamlutils "github.com/kyverno/kyverno/pkg/utils/yaml"
 	"github.com/spf13/cobra"
 )
 

@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/config"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/jmespath"
-	imageutils "github.com/nsathyaseelan/kyverno/pkg/utils/image"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/config"
+	"github.com/kyverno/kyverno/pkg/engine/jmespath"
+	imageutils "github.com/kyverno/kyverno/pkg/utils/image"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

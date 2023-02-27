@@ -2,9 +2,9 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	csistoragecapacities "github.com/nsathyaseelan/kyverno/pkg/clients/kube/storagev1alpha1/csistoragecapacities"
-	volumeattachments "github.com/nsathyaseelan/kyverno/pkg/clients/kube/storagev1alpha1/volumeattachments"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	csistoragecapacities "github.com/kyverno/kyverno/pkg/clients/kube/storagev1alpha1/csistoragecapacities"
+	volumeattachments "github.com/kyverno/kyverno/pkg/clients/kube/storagev1alpha1/volumeattachments"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_storage_v1alpha1 "k8s.io/client-go/kubernetes/typed/storage/v1alpha1"
 	"k8s.io/client-go/rest"
 )

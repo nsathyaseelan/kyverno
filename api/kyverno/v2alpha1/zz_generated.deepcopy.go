@@ -22,7 +22,7 @@ limitations under the License.
 package v2alpha1
 
 import (
-	"github.com/nsathyaseelan/kyverno/api/kyverno/v2beta1"
+	"github.com/kyverno/kyverno/api/kyverno/v2beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 )

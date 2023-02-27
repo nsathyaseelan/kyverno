@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	"github.com/kyverno/kyverno/pkg/engine/api"
 	"gotest.tools/assert"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

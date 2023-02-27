@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	runtimeclasses "github.com/nsathyaseelan/kyverno/pkg/clients/kube/nodev1beta1/runtimeclasses"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	runtimeclasses "github.com/kyverno/kyverno/pkg/clients/kube/nodev1beta1/runtimeclasses"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_node_v1beta1 "k8s.io/client-go/kubernetes/typed/node/v1beta1"
 	"k8s.io/client-go/rest"
 )

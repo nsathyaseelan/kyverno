@@ -3,9 +3,9 @@ package validate
 import (
 	"fmt"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/anchor"
-	"github.com/nsathyaseelan/kyverno/pkg/policy/common"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/engine/anchor"
+	"github.com/kyverno/kyverno/pkg/policy/common"
 )
 
 // Validate validates a 'validate' rule

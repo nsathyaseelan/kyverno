@@ -10,5 +10,5 @@ contact_links:
     url: https://kubernetes.slack.com/archives/CLGR9BJU9
     about: Please ask and answer any Kyverno usage questions here.
   - name: Kyverno Contributor Discussions
-    url: https://github.com/nsathyaseelan/kyverno/discussions
+    url: https://github.com/kyverno/kyverno/discussions
     about: Please ask and answer questions related to Kyverno internals here.

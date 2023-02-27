@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/utils"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/variables"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	"github.com/kyverno/kyverno/pkg/engine/utils"
+	"github.com/kyverno/kyverno/pkg/engine/variables"
 	"k8s.io/apiextensions-apiserver/pkg/apis/apiextensions"
 )
 

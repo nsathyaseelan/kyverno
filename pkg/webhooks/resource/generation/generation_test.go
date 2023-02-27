@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/background/generate"
+	"github.com/kyverno/kyverno/pkg/background/generate"
 	"gotest.tools/assert"
 )
 

@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/controllers"
+	"github.com/kyverno/kyverno/pkg/controllers"
 )
 
 type Controller interface {

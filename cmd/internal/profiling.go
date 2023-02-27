@@ -4,7 +4,7 @@ import (
 	"net"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/profiling"
+	"github.com/kyverno/kyverno/pkg/profiling"
 )
 
 func SetupProfiling(logger logr.Logger) {

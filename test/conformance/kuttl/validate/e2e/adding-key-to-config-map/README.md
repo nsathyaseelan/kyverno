@@ -18,4 +18,4 @@ The existing ConfigMap isn't patched and policy violation is reported.
 
 ## Reference Issue(s)
 
-https://github.com/nsathyaseelan/kyverno/issues/3253
+https://github.com/kyverno/kyverno/issues/3253

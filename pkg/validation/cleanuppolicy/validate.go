@@ -6,11 +6,11 @@ import (
 	"regexp"
 
 	"github.com/go-logr/logr"
-	kyvernov2alpha1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
-	"github.com/nsathyaseelan/kyverno/pkg/auth"
-	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
-	enginecontext "github.com/nsathyaseelan/kyverno/pkg/engine/context"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/variables"
+	kyvernov2alpha1 "github.com/kyverno/kyverno/api/kyverno/v2alpha1"
+	"github.com/kyverno/kyverno/pkg/auth"
+	"github.com/kyverno/kyverno/pkg/clients/dclient"
+	enginecontext "github.com/kyverno/kyverno/pkg/engine/context"
+	"github.com/kyverno/kyverno/pkg/engine/variables"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/discovery"
 )

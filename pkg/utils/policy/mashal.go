@@ -3,7 +3,7 @@ package policy
 import (
 	"encoding/json"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
 	"sigs.k8s.io/yaml"
 )
 

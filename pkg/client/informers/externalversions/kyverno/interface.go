@@ -19,11 +19,11 @@ limitations under the License.
 package kyverno
 
 import (
-	internalinterfaces "github.com/nsathyaseelan/kyverno/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/nsathyaseelan/kyverno/pkg/client/informers/externalversions/kyverno/v1"
-	v1alpha2 "github.com/nsathyaseelan/kyverno/pkg/client/informers/externalversions/kyverno/v1alpha2"
-	v1beta1 "github.com/nsathyaseelan/kyverno/pkg/client/informers/externalversions/kyverno/v1beta1"
-	v2alpha1 "github.com/nsathyaseelan/kyverno/pkg/client/informers/externalversions/kyverno/v2alpha1"
+	internalinterfaces "github.com/kyverno/kyverno/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/kyverno/kyverno/pkg/client/informers/externalversions/kyverno/v1"
+	v1alpha2 "github.com/kyverno/kyverno/pkg/client/informers/externalversions/kyverno/v1alpha2"
+	v1beta1 "github.com/kyverno/kyverno/pkg/client/informers/externalversions/kyverno/v1beta1"
+	v2alpha1 "github.com/kyverno/kyverno/pkg/client/informers/externalversions/kyverno/v2alpha1"
 )
 
 // Interface provides access to each of this group's versions.

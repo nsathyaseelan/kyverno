@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/auth"
-	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	"github.com/kyverno/kyverno/pkg/auth"
+	"github.com/kyverno/kyverno/pkg/clients/dclient"
 )
 
 // Operations provides methods to performing operations on resource

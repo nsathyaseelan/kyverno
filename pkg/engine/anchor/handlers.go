@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/logging"
+	"github.com/kyverno/kyverno/pkg/logging"
 )
 
 type resourceElementHandler = func(

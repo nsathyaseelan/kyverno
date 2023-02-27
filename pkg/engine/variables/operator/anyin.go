@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/operator"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/pattern"
-	wildcard "github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
+	"github.com/kyverno/kyverno/pkg/engine/context"
+	"github.com/kyverno/kyverno/pkg/engine/operator"
+	"github.com/kyverno/kyverno/pkg/engine/pattern"
+	wildcard "github.com/kyverno/kyverno/pkg/utils/wildcard"
 )
 
 // NewAnyInHandler returns handler to manage AnyIn operations

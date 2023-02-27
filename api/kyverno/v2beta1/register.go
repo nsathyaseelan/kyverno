@@ -1,7 +1,7 @@
 package v2beta1
 
 import (
-	"github.com/nsathyaseelan/kyverno/api/kyverno"
+	"github.com/kyverno/kyverno/api/kyverno"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

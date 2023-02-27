@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
 )
 
 func GetErrorMsg(engineReponses []*engineapi.EngineResponse) string {

@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	leases "github.com/nsathyaseelan/kyverno/pkg/clients/kube/coordinationv1/leases"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	leases "github.com/kyverno/kyverno/pkg/clients/kube/coordinationv1/leases"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_coordination_v1 "k8s.io/client-go/kubernetes/typed/coordination/v1"
 	"k8s.io/client-go/rest"
 )

@@ -7,10 +7,10 @@ import (
 
 	"github.com/go-logr/logr"
 	gojmespath "github.com/jmespath/go-jmespath"
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/internal"
-	apiutils "github.com/nsathyaseelan/kyverno/pkg/utils/api"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	"github.com/kyverno/kyverno/pkg/engine/internal"
+	apiutils "github.com/kyverno/kyverno/pkg/utils/api"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

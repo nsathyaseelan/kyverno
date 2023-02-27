@@ -3,11 +3,11 @@ package match
 import (
 	"fmt"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
-	kyvernov2beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2beta1"
-	datautils "github.com/nsathyaseelan/kyverno/pkg/utils/data"
-	"github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	kyvernov2beta1 "github.com/kyverno/kyverno/api/kyverno/v2beta1"
+	datautils "github.com/kyverno/kyverno/pkg/utils/data"
+	"github.com/kyverno/kyverno/pkg/utils/wildcard"
 	"go.uber.org/multierr"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

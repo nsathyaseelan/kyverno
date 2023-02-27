@@ -2,9 +2,9 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	github_com_kyverno_kyverno_pkg_client_clientset_versioned_typed_kyverno_v1beta1 "github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned/typed/kyverno/v1beta1"
-	updaterequests "github.com/nsathyaseelan/kyverno/pkg/clients/nsathyaseelan/kyvernov1beta1/updaterequests"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	github_com_kyverno_kyverno_pkg_client_clientset_versioned_typed_kyverno_v1beta1 "github.com/kyverno/kyverno/pkg/client/clientset/versioned/typed/kyverno/v1beta1"
+	updaterequests "github.com/kyverno/kyverno/pkg/clients/kyverno/kyvernov1beta1/updaterequests"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	"k8s.io/client-go/rest"
 )
 

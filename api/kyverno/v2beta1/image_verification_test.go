@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
 	"gotest.tools/assert"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 )

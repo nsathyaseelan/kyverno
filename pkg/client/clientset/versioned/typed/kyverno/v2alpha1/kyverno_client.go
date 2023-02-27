@@ -21,8 +21,8 @@ package v2alpha1
 import (
 	"net/http"
 
-	v2alpha1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
-	"github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned/scheme"
+	v2alpha1 "github.com/kyverno/kyverno/api/kyverno/v2alpha1"
+	"github.com/kyverno/kyverno/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

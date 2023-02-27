@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
-	"github.com/nsathyaseelan/kyverno/pkg/autogen"
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/internal"
+	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	"github.com/kyverno/kyverno/pkg/autogen"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	"github.com/kyverno/kyverno/pkg/engine/internal"
 )
 
 // GenerateResponse checks for validity of generate rule on the resource

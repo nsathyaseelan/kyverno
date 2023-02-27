@@ -2,9 +2,9 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	cronjobs "github.com/nsathyaseelan/kyverno/pkg/clients/kube/batchv1/cronjobs"
-	jobs "github.com/nsathyaseelan/kyverno/pkg/clients/kube/batchv1/jobs"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	cronjobs "github.com/kyverno/kyverno/pkg/clients/kube/batchv1/cronjobs"
+	jobs "github.com/kyverno/kyverno/pkg/clients/kube/batchv1/jobs"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_batch_v1 "k8s.io/client-go/kubernetes/typed/batch/v1"
 	"k8s.io/client-go/rest"
 )

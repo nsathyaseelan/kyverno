@@ -9,4 +9,4 @@ Given the defined predicateType, all attestor entries must be valid if the count
 
 ## Reference Issue(s)
 
-https://github.com/nsathyaseelan/kyverno/issues/4847
+https://github.com/kyverno/kyverno/issues/4847

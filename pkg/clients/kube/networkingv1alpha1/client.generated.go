@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	clustercidrs "github.com/nsathyaseelan/kyverno/pkg/clients/kube/networkingv1alpha1/clustercidrs"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	clustercidrs "github.com/kyverno/kyverno/pkg/clients/kube/networkingv1alpha1/clustercidrs"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_networking_v1alpha1 "k8s.io/client-go/kubernetes/typed/networking/v1alpha1"
 	"k8s.io/client-go/rest"
 )

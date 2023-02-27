@@ -2,7 +2,7 @@ package engine
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/logging"
+	"github.com/kyverno/kyverno/pkg/logging"
 	corev1listers "k8s.io/client-go/listers/core/v1"
 )
 

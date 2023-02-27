@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"sort"
 
-	"github.com/nsathyaseelan/kyverno/pkg/engine/anchor"
+	"github.com/kyverno/kyverno/pkg/engine/anchor"
 )
 
 // Checks if pattern has anchors

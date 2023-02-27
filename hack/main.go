@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned"
+	"github.com/kyverno/kyverno/pkg/client/clientset/versioned"
 	apiserver "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/dynamic"
@@ -26,8 +26,8 @@ import (
 	"fmt"
 	"time"
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
-	"github.com/nsathyaseelan/kyverno/pkg/tracing"
+	"github.com/kyverno/kyverno/pkg/metrics"
+	"github.com/kyverno/kyverno/pkg/tracing"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
@@ -211,13 +211,13 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	"k8s.io/client-go/rest"
 	{{- range $package := Packages .Target.Type }}
 	{{ Pkg $package }} {{ Quote $package }}
 	{{- end }}
 	{{- range $method, $resource := .Target.Resources }}
-	{{ ToLower $method.Name }} "github.com/nsathyaseelan/kyverno/{{ $.Folder }}/{{ ToLower $method.Name }}"
+	{{ ToLower $method.Name }} "github.com/kyverno/kyverno/{{ $.Folder }}/{{ ToLower $method.Name }}"
 	{{- end }}
 )
 
@@ -290,15 +290,15 @@ package clientset
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	{{- range $package := Packages .Target.Type }}
 	{{ Pkg $package }} {{ Quote $package }}
 	{{- end }}
 	{{- range $resourceMethod, $resource := .Target.Resources }}
-	{{ ToLower $resourceMethod.Name }} "github.com/nsathyaseelan/kyverno/{{ $.Folder }}/{{ ToLower $resourceMethod.Name }}"
+	{{ ToLower $resourceMethod.Name }} "github.com/kyverno/kyverno/{{ $.Folder }}/{{ ToLower $resourceMethod.Name }}"
 	{{- end }}
 	{{- range $clientMethod, $client := .Target.Clients }}
-	{{ ToLower $clientMethod.Name }} "github.com/nsathyaseelan/kyverno/{{ $.Folder }}/{{ ToLower $clientMethod.Name }}"
+	{{ ToLower $clientMethod.Name }} "github.com/kyverno/kyverno/{{ $.Folder }}/{{ ToLower $clientMethod.Name }}"
 	{{- end }}
 )
 
@@ -361,12 +361,12 @@ package clientset
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	{{- range $package := Packages .Target.Type }}
 	{{ Pkg $package }} {{ Quote $package }}
 	{{- end }}
 	{{- range $clientMethod, $client := .Target.Clients }}
-	{{ ToLower $clientMethod.Name }} "github.com/nsathyaseelan/kyverno/{{ $.Folder }}/{{ ToLower $clientMethod.Name }}"
+	{{ ToLower $clientMethod.Name }} "github.com/kyverno/kyverno/{{ $.Folder }}/{{ ToLower $clientMethod.Name }}"
 	{{- end }}
 )
 

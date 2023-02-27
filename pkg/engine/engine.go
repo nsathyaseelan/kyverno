@@ -3,15 +3,15 @@ package engine
 import (
 	"context"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
-	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
-	"github.com/nsathyaseelan/kyverno/pkg/config"
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
-	enginecontext "github.com/nsathyaseelan/kyverno/pkg/engine/context"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/internal"
-	"github.com/nsathyaseelan/kyverno/pkg/logging"
-	"github.com/nsathyaseelan/kyverno/pkg/registryclient"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	"github.com/kyverno/kyverno/pkg/clients/dclient"
+	"github.com/kyverno/kyverno/pkg/config"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	enginecontext "github.com/kyverno/kyverno/pkg/engine/context"
+	"github.com/kyverno/kyverno/pkg/engine/internal"
+	"github.com/kyverno/kyverno/pkg/logging"
+	"github.com/kyverno/kyverno/pkg/registryclient"
 )
 
 type engine struct {

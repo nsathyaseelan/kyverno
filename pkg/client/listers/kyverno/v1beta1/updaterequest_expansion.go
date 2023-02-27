@@ -16,7 +16,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	v1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	v1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
 	"k8s.io/apimachinery/pkg/labels"
 )
 

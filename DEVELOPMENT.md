@@ -76,7 +76,7 @@ To build `kyverno` binary on your local system, run:
 make build-kyverno
 ```
 
-The binary should be created at `./cmd/nsathyaseelan/kyverno`.
+The binary should be created at `./cmd/kyverno/kyverno`.
 
 ### Building cli locally
 
@@ -98,7 +98,7 @@ In the same spirit as [building local binaries](#building-local-binaries), you c
 Building images uses repository tags. To fetch repository tags into your fork run the following commands:
 
 ```sh
-git remote add upstream  https://github.com/nsathyaseelan/kyverno
+git remote add upstream  https://github.com/kyverno/kyverno
 git fetch upstream --tags
 ```
 
@@ -115,7 +115,7 @@ To build `kyvernopre` image on your local system, run:
 make ko-build-kyverno-init
 ```
 
-The resulting image should be available locally, named `ko.local/github.com/nsathyaseelan/kyverno/cmd/initcontainer`.
+The resulting image should be available locally, named `ko.local/github.com/kyverno/kyverno/cmd/initcontainer`.
 
 #### Building kyverno image locally
 
@@ -124,7 +124,7 @@ To build `kyverno` image on your local system, run:
 make ko-build-kyverno
 ```
 
-The resulting image should be available locally, named `ko.local/github.com/nsathyaseelan/kyverno/cmd/kyverno`.
+The resulting image should be available locally, named `ko.local/github.com/kyverno/kyverno/cmd/kyverno`.
 
 #### Building cli image locally
 
@@ -133,7 +133,7 @@ To build `cli` image on your local system, run:
 make ko-build-cli
 ```
 
-The resulting image should be available locally, named `ko.local/github.com/nsathyaseelan/kyverno/cmd/cli/kubectl-kyverno`.
+The resulting image should be available locally, named `ko.local/github.com/kyverno/kyverno/cmd/cli/kubectl-kyverno`.
 
 ## Pushing images
 
@@ -171,7 +171,7 @@ or
 make ko-publish-kyverno-init-dev
 ```
 
-The resulting image should be available remotely, named `ghcr.io/nsathyaseelan/kyvernopre` (by default, if `REGISTRY` environment variable was not set).
+The resulting image should be available remotely, named `ghcr.io/kyverno/kyvernopre` (by default, if `REGISTRY` environment variable was not set).
 
 #### Pushing kyverno image
 
@@ -186,7 +186,7 @@ or
 make ko-publish-kyverno-dev
 ```
 
-The resulting image should be available remotely, named `ghcr.io/nsathyaseelan/kyverno` (by default, if `REGISTRY` environment variable was not set).
+The resulting image should be available remotely, named `ghcr.io/kyverno/kyverno` (by default, if `REGISTRY` environment variable was not set).
 
 #### Pushing cli image
 
@@ -201,7 +201,7 @@ or
 make ko-publish-cli-dev
 ```
 
-The resulting image should be available remotely, named `ghcr.io/nsathyaseelan/kyverno-cli` (by default, if `REGISTRY` environment variable was not set).
+The resulting image should be available remotely, named `ghcr.io/kyverno/kyverno-cli` (by default, if `REGISTRY` environment variable was not set).
 
 ## Deploying a local build
 

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/autogen"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/autogen"
 	"gotest.tools/assert"
 	kubecache "k8s.io/client-go/tools/cache"
 )

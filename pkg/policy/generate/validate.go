@@ -6,12 +6,12 @@ import (
 	"reflect"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/variables"
-	"github.com/nsathyaseelan/kyverno/pkg/policy/common"
-	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
-	"github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/clients/dclient"
+	"github.com/kyverno/kyverno/pkg/engine/variables"
+	"github.com/kyverno/kyverno/pkg/policy/common"
+	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	"github.com/kyverno/kyverno/pkg/utils/wildcard"
 )
 
 // Generate provides implementation to validate 'generate' rule
@@ -85,7 +85,7 @@ func (g *Generate) Validate() (string, error) {
 
 	// Kyverno generate-controller create/update/deletes the resources specified in generate rule of policy
 	// kyverno uses SA 'kyverno' and has default ClusterRoles and ClusterRoleBindings
-	// instructions to modify the RBAC for kyverno are mentioned at https://github.com/nsathyaseelan/kyverno/blob/master/documentation/installation.md
+	// instructions to modify the RBAC for kyverno are mentioned at https://github.com/kyverno/kyverno/blob/master/documentation/installation.md
 	// - operations required: create/update/delete/get
 	// If kind and namespace contain variables, then we cannot resolve then so we skip the processing
 	if len(rule.CloneList.Kinds) != 0 {

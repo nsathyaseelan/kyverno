@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	endpointslices "github.com/nsathyaseelan/kyverno/pkg/clients/kube/discoveryv1/endpointslices"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	endpointslices "github.com/kyverno/kyverno/pkg/clients/kube/discoveryv1/endpointslices"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_discovery_v1 "k8s.io/client-go/kubernetes/typed/discovery/v1"
 	"k8s.io/client-go/rest"
 )

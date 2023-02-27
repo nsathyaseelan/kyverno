@@ -3,12 +3,12 @@ package policy
 import (
 	"fmt"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
-	"github.com/nsathyaseelan/kyverno/pkg/logging"
-	"github.com/nsathyaseelan/kyverno/pkg/policy/generate"
-	"github.com/nsathyaseelan/kyverno/pkg/policy/mutate"
-	"github.com/nsathyaseelan/kyverno/pkg/policy/validate"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/clients/dclient"
+	"github.com/kyverno/kyverno/pkg/logging"
+	"github.com/kyverno/kyverno/pkg/policy/generate"
+	"github.com/kyverno/kyverno/pkg/policy/mutate"
+	"github.com/kyverno/kyverno/pkg/policy/validate"
 	"golang.org/x/exp/slices"
 )
 

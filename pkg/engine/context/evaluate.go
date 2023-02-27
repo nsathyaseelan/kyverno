@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/nsathyaseelan/kyverno/pkg/engine/jmespath"
+	"github.com/kyverno/kyverno/pkg/engine/jmespath"
 )
 
 // Query the JSON context with JMESPATH search path

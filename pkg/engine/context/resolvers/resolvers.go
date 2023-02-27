@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

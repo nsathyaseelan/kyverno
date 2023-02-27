@@ -3,9 +3,9 @@ package api
 import (
 	"reflect"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	utils "github.com/nsathyaseelan/kyverno/pkg/utils/match"
-	"github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	utils "github.com/kyverno/kyverno/pkg/utils/match"
+	"github.com/kyverno/kyverno/pkg/utils/wildcard"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

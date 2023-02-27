@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
-	"github.com/nsathyaseelan/kyverno/pkg/tracing"
+	"github.com/kyverno/kyverno/pkg/metrics"
+	"github.com/kyverno/kyverno/pkg/tracing"
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/multierr"
 	k8s_io_api_discovery_v1beta1 "k8s.io/api/discovery/v1beta1"

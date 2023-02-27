@@ -3,7 +3,7 @@ package internal
 import (
 	"flag"
 
-	"github.com/nsathyaseelan/kyverno/pkg/logging"
+	"github.com/kyverno/kyverno/pkg/logging"
 )
 
 var (

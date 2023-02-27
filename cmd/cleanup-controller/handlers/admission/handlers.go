@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
-	admissionutils "github.com/nsathyaseelan/kyverno/pkg/utils/admission"
-	validation "github.com/nsathyaseelan/kyverno/pkg/validation/cleanuppolicy"
+	"github.com/kyverno/kyverno/pkg/clients/dclient"
+	admissionutils "github.com/kyverno/kyverno/pkg/utils/admission"
+	validation "github.com/kyverno/kyverno/pkg/validation/cleanuppolicy"
 	admissionv1 "k8s.io/api/admission/v1"
 )
 

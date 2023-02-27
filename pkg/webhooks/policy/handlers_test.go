@@ -4,10 +4,10 @@ package policy
 // 	"encoding/json"
 // 	"testing"
 
-// 	kyverno "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-// 	"github.com/nsathyaseelan/kyverno/pkg/engine/utils"
+// 	kyverno "github.com/kyverno/kyverno/api/kyverno/v1"
+// 	"github.com/kyverno/kyverno/pkg/engine/utils"
 
-// 	log "github.com/nsathyaseelan/kyverno/pkg/logging"
+// 	log "github.com/kyverno/kyverno/pkg/logging"
 // 	assertnew "github.com/stretchr/testify/assert"
 // 	"gotest.tools/assert"
 // )

@@ -3,7 +3,7 @@ package tls
 import (
 	"fmt"
 
-	"github.com/nsathyaseelan/kyverno/pkg/config"
+	"github.com/kyverno/kyverno/pkg/config"
 	corev1 "k8s.io/api/core/v1"
 	corev1listers "k8s.io/client-go/listers/core/v1"
 )

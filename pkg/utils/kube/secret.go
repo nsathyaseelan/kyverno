@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	datautils "github.com/nsathyaseelan/kyverno/pkg/utils/data"
+	datautils "github.com/kyverno/kyverno/pkg/utils/data"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )

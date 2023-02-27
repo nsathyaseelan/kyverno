@@ -21,11 +21,11 @@ package externalversions
 import (
 	"fmt"
 
-	v1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	v1alpha2 "github.com/nsathyaseelan/kyverno/api/kyverno/v1alpha2"
-	v1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
-	v2alpha1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
-	policyreportv1alpha2 "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
+	v1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	v1alpha2 "github.com/kyverno/kyverno/api/kyverno/v1alpha2"
+	v1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	v2alpha1 "github.com/kyverno/kyverno/api/kyverno/v2alpha1"
+	policyreportv1alpha2 "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

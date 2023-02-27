@@ -7,7 +7,7 @@ import (
 	"time"
 
 	openapiv2 "github.com/google/gnostic/openapiv2"
-	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
+	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/version"

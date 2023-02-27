@@ -8,7 +8,7 @@ Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and
 ### Prerequisites
  * Ensure that Kubernetes Version > 1.15
  * Ensure that the Kyverno is running by executing `kubectl get pods` in operator namespace (typically, `kyverno`). If not, install from [here](https://kyverno.io/docs/installation/).
-* Update Kyverno Deployment to use `ghcr.io/nsathyaseelan/kyverno:test-litmuschaos` image. Note that this image is built specifically to run Litmuschaos experiments per this request,  [CHAOS_KILL_COMMAND](https://docs.litmuschaos.io/docs/pod-cpu-hog/#prepare-chaosengine). The official Kyverno images will adopt this soon.
+* Update Kyverno Deployment to use `ghcr.io/kyverno/kyverno:test-litmuschaos` image. Note that this image is built specifically to run Litmuschaos experiments per this request,  [CHAOS_KILL_COMMAND](https://docs.litmuschaos.io/docs/pod-cpu-hog/#prepare-chaosengine). The official Kyverno images will adopt this soon.
  * Ensure that the Litmus Chaos Operator is running by executing `kubectl get pods` in operator namespace (typically, `litmus`). If not, install from [here](https://docs.litmuschaos.io/docs/getstarted/#install-litmus).
 
 

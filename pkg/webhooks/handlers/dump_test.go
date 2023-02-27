@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	datautils "github.com/nsathyaseelan/kyverno/pkg/utils/data"
+	datautils "github.com/kyverno/kyverno/pkg/utils/data"
 	"gotest.tools/assert"
 	admissionv1 "k8s.io/api/admission/v1"
 )

@@ -1,6 +1,6 @@
 package policy
 
-import "github.com/nsathyaseelan/kyverno/pkg/logging"
+import "github.com/kyverno/kyverno/pkg/logging"
 
 const controllerName = "policy-metrics"
 

@@ -1,7 +1,7 @@
 package event
 
 import (
-	"github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned/scheme"
+	"github.com/kyverno/kyverno/pkg/client/clientset/versioned/scheme"
 	corev1 "k8s.io/api/core/v1"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	typedcorev1 "k8s.io/client-go/kubernetes/typed/core/v1"

@@ -94,7 +94,7 @@ type Variable struct {
 // details.
 type ImageRegistry struct {
 	// Reference is image reference to a container image in the registry.
-	// Example: ghcr.io/nsathyaseelan/kyverno:latest
+	// Example: ghcr.io/kyverno/kyverno:latest
 	Reference string `json:"reference" yaml:"reference"`
 
 	// JMESPath is an optional JSON Match Expression that can be used to

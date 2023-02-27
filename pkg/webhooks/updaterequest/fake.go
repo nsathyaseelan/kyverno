@@ -3,7 +3,7 @@ package updaterequest
 import (
 	"context"
 
-	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
 	admissionv1 "k8s.io/api/admission/v1"
 )
 

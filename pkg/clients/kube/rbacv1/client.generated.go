@@ -2,11 +2,11 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	clusterrolebindings "github.com/nsathyaseelan/kyverno/pkg/clients/kube/rbacv1/clusterrolebindings"
-	clusterroles "github.com/nsathyaseelan/kyverno/pkg/clients/kube/rbacv1/clusterroles"
-	rolebindings "github.com/nsathyaseelan/kyverno/pkg/clients/kube/rbacv1/rolebindings"
-	roles "github.com/nsathyaseelan/kyverno/pkg/clients/kube/rbacv1/roles"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	clusterrolebindings "github.com/kyverno/kyverno/pkg/clients/kube/rbacv1/clusterrolebindings"
+	clusterroles "github.com/kyverno/kyverno/pkg/clients/kube/rbacv1/clusterroles"
+	rolebindings "github.com/kyverno/kyverno/pkg/clients/kube/rbacv1/rolebindings"
+	roles "github.com/kyverno/kyverno/pkg/clients/kube/rbacv1/roles"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_rbac_v1 "k8s.io/client-go/kubernetes/typed/rbac/v1"
 	"k8s.io/client-go/rest"
 )

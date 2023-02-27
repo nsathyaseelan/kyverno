@@ -2,12 +2,12 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	controllerrevisions "github.com/nsathyaseelan/kyverno/pkg/clients/kube/appsv1beta2/controllerrevisions"
-	daemonsets "github.com/nsathyaseelan/kyverno/pkg/clients/kube/appsv1beta2/daemonsets"
-	deployments "github.com/nsathyaseelan/kyverno/pkg/clients/kube/appsv1beta2/deployments"
-	replicasets "github.com/nsathyaseelan/kyverno/pkg/clients/kube/appsv1beta2/replicasets"
-	statefulsets "github.com/nsathyaseelan/kyverno/pkg/clients/kube/appsv1beta2/statefulsets"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	controllerrevisions "github.com/kyverno/kyverno/pkg/clients/kube/appsv1beta2/controllerrevisions"
+	daemonsets "github.com/kyverno/kyverno/pkg/clients/kube/appsv1beta2/daemonsets"
+	deployments "github.com/kyverno/kyverno/pkg/clients/kube/appsv1beta2/deployments"
+	replicasets "github.com/kyverno/kyverno/pkg/clients/kube/appsv1beta2/replicasets"
+	statefulsets "github.com/kyverno/kyverno/pkg/clients/kube/appsv1beta2/statefulsets"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_apps_v1beta2 "k8s.io/client-go/kubernetes/typed/apps/v1beta2"
 	"k8s.io/client-go/rest"
 )

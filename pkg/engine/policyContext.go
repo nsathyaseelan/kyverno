@@ -3,12 +3,12 @@ package engine
 import (
 	"fmt"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
-	"github.com/nsathyaseelan/kyverno/pkg/config"
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
-	enginectx "github.com/nsathyaseelan/kyverno/pkg/engine/context"
-	admissionutils "github.com/nsathyaseelan/kyverno/pkg/utils/admission"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	"github.com/kyverno/kyverno/pkg/config"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	enginectx "github.com/kyverno/kyverno/pkg/engine/context"
+	admissionutils "github.com/kyverno/kyverno/pkg/utils/admission"
 	admissionv1 "k8s.io/api/admission/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

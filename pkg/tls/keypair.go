@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nsathyaseelan/kyverno/pkg/config"
+	"github.com/kyverno/kyverno/pkg/config"
 )
 
 // generateCA creates the self-signed CA cert and private key

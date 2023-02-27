@@ -3,7 +3,7 @@ package engine
 import (
 	"testing"
 
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
 	"gotest.tools/assert"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

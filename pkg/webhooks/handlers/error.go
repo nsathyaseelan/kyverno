@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/tracing"
+	"github.com/kyverno/kyverno/pkg/tracing"
 )
 
 func HttpError(ctx context.Context, writer http.ResponseWriter, request *http.Request, logger logr.Logger, err error, code int) {

@@ -1,4 +1,4 @@
-module github.com/nsathyaseelan/kyverno
+module github.com/kyverno/kyverno
 
 go 1.19
 

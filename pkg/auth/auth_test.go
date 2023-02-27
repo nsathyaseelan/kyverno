@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	"github.com/kyverno/kyverno/pkg/clients/dclient"
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/authorization/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

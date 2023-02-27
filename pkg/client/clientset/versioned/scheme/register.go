@@ -19,11 +19,11 @@ limitations under the License.
 package scheme
 
 import (
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	kyvernov1alpha2 "github.com/nsathyaseelan/kyverno/api/kyverno/v1alpha2"
-	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
-	kyvernov2alpha1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
-	wgpolicyk8sv1alpha2 "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1alpha2 "github.com/kyverno/kyverno/api/kyverno/v1alpha2"
+	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	kyvernov2alpha1 "github.com/kyverno/kyverno/api/kyverno/v2alpha1"
+	wgpolicyk8sv1alpha2 "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

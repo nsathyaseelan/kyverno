@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
-	"github.com/nsathyaseelan/kyverno/pkg/controllers"
+	"github.com/kyverno/kyverno/pkg/clients/dclient"
+	"github.com/kyverno/kyverno/pkg/controllers"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtimeSchema "k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/wait"

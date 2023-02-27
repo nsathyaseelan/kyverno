@@ -10,7 +10,7 @@ newIssueWelcomeComment: >
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
   Thanks for opening your first Pull Request here! 
-  Please check out our [Contributing guidelines](https://github.com/nsathyaseelan/kyverno/blob/main/CONTRIBUTING.md) and confirm that you Signed off.
+  Please check out our [Contributing guidelines](https://github.com/kyverno/kyverno/blob/main/CONTRIBUTING.md) and confirm that you Signed off.
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 
 # Comment to be posted to on pull requests merged by a first time user

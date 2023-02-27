@@ -9,4 +9,4 @@ Verify image attestations with the given predicateType and attestors. The image 
 
 ## Reference Issue(s)
 
-https://github.com/nsathyaseelan/kyverno/issues/4847
+https://github.com/kyverno/kyverno/issues/4847

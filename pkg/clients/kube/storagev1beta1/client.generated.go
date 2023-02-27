@@ -2,12 +2,12 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	csidrivers "github.com/nsathyaseelan/kyverno/pkg/clients/kube/storagev1beta1/csidrivers"
-	csinodes "github.com/nsathyaseelan/kyverno/pkg/clients/kube/storagev1beta1/csinodes"
-	csistoragecapacities "github.com/nsathyaseelan/kyverno/pkg/clients/kube/storagev1beta1/csistoragecapacities"
-	storageclasses "github.com/nsathyaseelan/kyverno/pkg/clients/kube/storagev1beta1/storageclasses"
-	volumeattachments "github.com/nsathyaseelan/kyverno/pkg/clients/kube/storagev1beta1/volumeattachments"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	csidrivers "github.com/kyverno/kyverno/pkg/clients/kube/storagev1beta1/csidrivers"
+	csinodes "github.com/kyverno/kyverno/pkg/clients/kube/storagev1beta1/csinodes"
+	csistoragecapacities "github.com/kyverno/kyverno/pkg/clients/kube/storagev1beta1/csistoragecapacities"
+	storageclasses "github.com/kyverno/kyverno/pkg/clients/kube/storagev1beta1/storageclasses"
+	volumeattachments "github.com/kyverno/kyverno/pkg/clients/kube/storagev1beta1/volumeattachments"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_storage_v1beta1 "k8s.io/client-go/kubernetes/typed/storage/v1beta1"
 	"k8s.io/client-go/rest"
 )

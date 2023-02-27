@@ -2,11 +2,11 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	podschedulings "github.com/nsathyaseelan/kyverno/pkg/clients/kube/resourcev1alpha1/podschedulings"
-	resourceclaims "github.com/nsathyaseelan/kyverno/pkg/clients/kube/resourcev1alpha1/resourceclaims"
-	resourceclaimtemplates "github.com/nsathyaseelan/kyverno/pkg/clients/kube/resourcev1alpha1/resourceclaimtemplates"
-	resourceclasses "github.com/nsathyaseelan/kyverno/pkg/clients/kube/resourcev1alpha1/resourceclasses"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	podschedulings "github.com/kyverno/kyverno/pkg/clients/kube/resourcev1alpha1/podschedulings"
+	resourceclaims "github.com/kyverno/kyverno/pkg/clients/kube/resourcev1alpha1/resourceclaims"
+	resourceclaimtemplates "github.com/kyverno/kyverno/pkg/clients/kube/resourcev1alpha1/resourceclaimtemplates"
+	resourceclasses "github.com/kyverno/kyverno/pkg/clients/kube/resourcev1alpha1/resourceclasses"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_resource_v1alpha1 "k8s.io/client-go/kubernetes/typed/resource/v1alpha1"
 	"k8s.io/client-go/rest"
 )

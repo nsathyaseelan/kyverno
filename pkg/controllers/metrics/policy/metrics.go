@@ -5,8 +5,8 @@ import (
 	"reflect"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	policyChangesMetric "github.com/nsathyaseelan/kyverno/pkg/metrics/policychanges"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	policyChangesMetric "github.com/kyverno/kyverno/pkg/metrics/policychanges"
 )
 
 func (pc *controller) registerPolicyChangesMetricAddPolicy(ctx context.Context, logger logr.Logger, p kyvernov1.PolicyInterface) {

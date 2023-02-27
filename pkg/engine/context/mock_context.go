@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/nsathyaseelan/kyverno/pkg/engine/jmespath"
-	wildcard "github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
+	"github.com/kyverno/kyverno/pkg/engine/jmespath"
+	wildcard "github.com/kyverno/kyverno/pkg/utils/wildcard"
 )
 
 // MockContext is used for testing and validation of variables

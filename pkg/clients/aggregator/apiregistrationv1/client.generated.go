@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	apiservices "github.com/nsathyaseelan/kyverno/pkg/clients/aggregator/apiregistrationv1/apiservices"
-	"github.com/nsathyaseelan/kyverno/pkg/metrics"
+	apiservices "github.com/kyverno/kyverno/pkg/clients/aggregator/apiregistrationv1/apiservices"
+	"github.com/kyverno/kyverno/pkg/metrics"
 	"k8s.io/client-go/rest"
 	k8s_io_kube_aggregator_pkg_client_clientset_generated_clientset_typed_apiregistration_v1 "k8s.io/kube-aggregator/pkg/client/clientset_generated/clientset/typed/apiregistration/v1"
 )

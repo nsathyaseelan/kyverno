@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/nsathyaseelan/kyverno/pkg/pss/utils"
-	wildcard "github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
+	"github.com/kyverno/kyverno/pkg/pss/utils"
+	wildcard "github.com/kyverno/kyverno/pkg/utils/wildcard"
 	"k8s.io/apiextensions-apiserver/pkg/apis/apiextensions"
 	apiextv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	"k8s.io/apimachinery/pkg/util/sets"

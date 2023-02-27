@@ -3,12 +3,12 @@ package common
 import (
 	"context"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
-	"github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned"
-	kyvernov1beta1listers "github.com/nsathyaseelan/kyverno/pkg/client/listers/kyverno/v1beta1"
-	"github.com/nsathyaseelan/kyverno/pkg/config"
-	"github.com/nsathyaseelan/kyverno/pkg/logging"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	"github.com/kyverno/kyverno/pkg/client/clientset/versioned"
+	kyvernov1beta1listers "github.com/kyverno/kyverno/pkg/client/listers/kyverno/v1beta1"
+	"github.com/kyverno/kyverno/pkg/config"
+	"github.com/kyverno/kyverno/pkg/logging"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/util/retry"
 )

@@ -2,7 +2,7 @@ package internal
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/version"
+	"github.com/kyverno/kyverno/pkg/version"
 )
 
 func ShowVersion(logger logr.Logger) {

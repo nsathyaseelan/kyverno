@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/tracing"
+	"github.com/kyverno/kyverno/pkg/tracing"
 	"k8s.io/client-go/kubernetes"
 )
 

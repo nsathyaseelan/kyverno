@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"testing"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	"github.com/nsathyaseelan/kyverno/pkg/config"
-	"github.com/nsathyaseelan/kyverno/pkg/engine"
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
-	log "github.com/nsathyaseelan/kyverno/pkg/logging"
-	"github.com/nsathyaseelan/kyverno/pkg/registryclient"
-	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
-	webhookutils "github.com/nsathyaseelan/kyverno/pkg/webhooks/utils"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	"github.com/kyverno/kyverno/pkg/config"
+	"github.com/kyverno/kyverno/pkg/engine"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	log "github.com/kyverno/kyverno/pkg/logging"
+	"github.com/kyverno/kyverno/pkg/registryclient"
+	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	webhookutils "github.com/kyverno/kyverno/pkg/webhooks/utils"
 	"gotest.tools/assert"
 )
 

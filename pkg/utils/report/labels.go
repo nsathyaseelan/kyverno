@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	kyvernov1alpha2 "github.com/nsathyaseelan/kyverno/api/kyverno/v1alpha2"
-	controllerutils "github.com/nsathyaseelan/kyverno/pkg/utils/controller"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1alpha2 "github.com/kyverno/kyverno/api/kyverno/v1alpha2"
+	controllerutils "github.com/kyverno/kyverno/pkg/utils/controller"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/types"

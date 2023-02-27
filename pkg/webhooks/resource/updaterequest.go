@@ -6,13 +6,13 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
-	"github.com/nsathyaseelan/kyverno/pkg/engine"
-	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
-	"github.com/nsathyaseelan/kyverno/pkg/event"
-	"github.com/nsathyaseelan/kyverno/pkg/webhooks/resource/generation"
-	webhookutils "github.com/nsathyaseelan/kyverno/pkg/webhooks/utils"
+	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	"github.com/kyverno/kyverno/pkg/engine"
+	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	"github.com/kyverno/kyverno/pkg/event"
+	"github.com/kyverno/kyverno/pkg/webhooks/resource/generation"
+	webhookutils "github.com/kyverno/kyverno/pkg/webhooks/utils"
 	admissionv1 "k8s.io/api/admission/v1"
 )
 

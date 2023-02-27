@@ -14,7 +14,7 @@ func CheckSubjects(
 ) bool {
 	const SaPrefix = "system:serviceaccount:"
 	userGroups := append(userInfo.Groups, userInfo.Username)
-	// TODO: see issue https://github.com/nsathyaseelan/kyverno/issues/861
+	// TODO: see issue https://github.com/kyverno/kyverno/issues/861
 	for _, e := range excludeGroupRole {
 		ruleSubjects = append(ruleSubjects, rbacv1.Subject{Kind: "Group", Name: e})
 	}

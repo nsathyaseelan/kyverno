@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	"github.com/go-logr/logr"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/anchor"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/pattern"
-	"github.com/nsathyaseelan/kyverno/pkg/engine/wildcards"
+	"github.com/kyverno/kyverno/pkg/engine/anchor"
+	"github.com/kyverno/kyverno/pkg/engine/pattern"
+	"github.com/kyverno/kyverno/pkg/engine/wildcards"
 	"go.uber.org/multierr"
 )
 

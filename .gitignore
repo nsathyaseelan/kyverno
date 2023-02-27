@@ -5,7 +5,7 @@ _output
 coverage.txt
 .idea
 cmd/cli/kubectl-kyverno/kubectl-kyverno
-cmd/nsathyaseelan/kyverno
+cmd/kyverno/kyverno
 cmd/kyverno-init/kyvernopre
 cmd/cleanup-controller/cleanup-controller
 cmd/reports-controller/reports-controller
