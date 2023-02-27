@@ -3,8 +3,8 @@ package api
 import (
 	"fmt"
 
-	kyvernov2alpha1 "github.com/kyverno/kyverno/api/kyverno/v2alpha1"
-	pssutils "github.com/kyverno/kyverno/pkg/pss/utils"
+	kyvernov2alpha1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
+	pssutils "github.com/nsathyaseelan/kyverno/pkg/pss/utils"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/pod-security-admission/api"

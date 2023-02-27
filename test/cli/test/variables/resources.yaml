@@ -98,7 +98,7 @@ metadata:
 spec:
   containers:
   - name: kyverno
-    image: ghcr.io/kyverno/kyverno
+    image: ghcr.io/nsathyaseelan/kyverno
 ---
 apiVersion: v1
 kind: Pod
@@ -107,4 +107,4 @@ metadata:
 spec:
   containers:
   - name: not-kyverno
-    image: gcr.io/not-kyverno/kyverno
+    image: gcr.io/not-nsathyaseelan/kyverno

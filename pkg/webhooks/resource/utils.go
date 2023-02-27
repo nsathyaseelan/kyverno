@@ -5,12 +5,12 @@ import (
 	"errors"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	engineutils "github.com/kyverno/kyverno/pkg/engine/utils"
-	admissionutils "github.com/kyverno/kyverno/pkg/utils/admission"
-	"github.com/kyverno/kyverno/pkg/webhooks/updaterequest"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	engineutils "github.com/nsathyaseelan/kyverno/pkg/engine/utils"
+	admissionutils "github.com/nsathyaseelan/kyverno/pkg/utils/admission"
+	"github.com/nsathyaseelan/kyverno/pkg/webhooks/updaterequest"
 	admissionv1 "k8s.io/api/admission/v1"
 	"k8s.io/apimachinery/pkg/types"
 )

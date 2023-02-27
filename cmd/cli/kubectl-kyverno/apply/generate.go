@@ -1,8 +1,8 @@
 package apply
 
 import (
-	policyreportv1alpha2 "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
-	sanitizederror "github.com/kyverno/kyverno/cmd/cli/kubectl-kyverno/utils/sanitizedError"
+	policyreportv1alpha2 "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
+	sanitizederror "github.com/nsathyaseelan/kyverno/cmd/cli/kubectl-kyverno/utils/sanitizedError"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 )

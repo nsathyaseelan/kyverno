@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/engine/anchor"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/anchor"
 	"gotest.tools/assert"
 	yaml "sigs.k8s.io/kustomize/kyaml/yaml"
 )

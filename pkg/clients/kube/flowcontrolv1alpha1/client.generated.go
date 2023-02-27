@@ -2,9 +2,9 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	flowschemas "github.com/kyverno/kyverno/pkg/clients/kube/flowcontrolv1alpha1/flowschemas"
-	prioritylevelconfigurations "github.com/kyverno/kyverno/pkg/clients/kube/flowcontrolv1alpha1/prioritylevelconfigurations"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	flowschemas "github.com/nsathyaseelan/kyverno/pkg/clients/kube/flowcontrolv1alpha1/flowschemas"
+	prioritylevelconfigurations "github.com/nsathyaseelan/kyverno/pkg/clients/kube/flowcontrolv1alpha1/prioritylevelconfigurations"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_flowcontrol_v1alpha1 "k8s.io/client-go/kubernetes/typed/flowcontrol/v1alpha1"
 	"k8s.io/client-go/rest"
 )

@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/config"
-	"github.com/kyverno/kyverno/pkg/logging"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	"github.com/nsathyaseelan/kyverno/pkg/logging"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	otlp "go.opentelemetry.io/otel"
 	"k8s.io/client-go/kubernetes"
 )

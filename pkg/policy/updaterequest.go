@@ -1,10 +1,10 @@
 package policy
 
 import (
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	common "github.com/kyverno/kyverno/pkg/background/common"
-	"github.com/kyverno/kyverno/pkg/config"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	common "github.com/nsathyaseelan/kyverno/pkg/background/common"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/labels"

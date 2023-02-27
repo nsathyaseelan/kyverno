@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/config"
-	webhookutils "github.com/kyverno/kyverno/pkg/webhooks/utils"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	webhookutils "github.com/nsathyaseelan/kyverno/pkg/webhooks/utils"
 	admissionv1 "k8s.io/api/admission/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 )

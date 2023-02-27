@@ -2,8 +2,8 @@ package patch
 
 import (
 	"github.com/go-logr/logr"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	"github.com/kyverno/kyverno/pkg/engine/context"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
 	"k8s.io/apiextensions-apiserver/pkg/apis/apiextensions"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )

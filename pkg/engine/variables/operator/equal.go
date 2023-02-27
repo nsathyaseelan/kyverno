@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/engine/context"
-	wildcard "github.com/kyverno/kyverno/pkg/utils/wildcard"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	wildcard "github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
 	"k8s.io/apimachinery/pkg/api/resource"
 )
 

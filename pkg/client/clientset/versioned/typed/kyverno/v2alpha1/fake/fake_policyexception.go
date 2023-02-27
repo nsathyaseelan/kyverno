@@ -21,7 +21,7 @@ package fake
 import (
 	"context"
 
-	v2alpha1 "github.com/kyverno/kyverno/api/kyverno/v2alpha1"
+	v2alpha1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

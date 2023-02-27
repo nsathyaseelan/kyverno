@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	yamlutils "github.com/kyverno/kyverno/pkg/utils/yaml"
+	yamlutils "github.com/nsathyaseelan/kyverno/pkg/utils/yaml"
 	"gotest.tools/assert"
 	"k8s.io/apimachinery/pkg/util/yaml"
 )

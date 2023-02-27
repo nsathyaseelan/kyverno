@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	kyvernov2alpha1 "github.com/kyverno/kyverno/api/kyverno/v2alpha1"
+	kyvernov2alpha1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
 )
 
 const (

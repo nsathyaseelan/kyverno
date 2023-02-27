@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	tokenreviews "github.com/kyverno/kyverno/pkg/clients/kube/authenticationv1beta1/tokenreviews"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	tokenreviews "github.com/nsathyaseelan/kyverno/pkg/clients/kube/authenticationv1beta1/tokenreviews"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_authentication_v1beta1 "k8s.io/client-go/kubernetes/typed/authentication/v1beta1"
 	"k8s.io/client-go/rest"
 )

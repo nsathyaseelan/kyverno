@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	v1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	v1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
 	"gotest.tools/assert"
 )
 

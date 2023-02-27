@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 )
 
 func shutdown(logger logr.Logger, sdowns ...context.CancelFunc) context.CancelFunc {

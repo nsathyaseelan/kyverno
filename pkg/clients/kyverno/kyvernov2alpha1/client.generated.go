@@ -2,11 +2,11 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	github_com_kyverno_kyverno_pkg_client_clientset_versioned_typed_kyverno_v2alpha1 "github.com/kyverno/kyverno/pkg/client/clientset/versioned/typed/kyverno/v2alpha1"
-	cleanuppolicies "github.com/kyverno/kyverno/pkg/clients/kyverno/kyvernov2alpha1/cleanuppolicies"
-	clustercleanuppolicies "github.com/kyverno/kyverno/pkg/clients/kyverno/kyvernov2alpha1/clustercleanuppolicies"
-	policyexceptions "github.com/kyverno/kyverno/pkg/clients/kyverno/kyvernov2alpha1/policyexceptions"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	github_com_kyverno_kyverno_pkg_client_clientset_versioned_typed_kyverno_v2alpha1 "github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned/typed/kyverno/v2alpha1"
+	cleanuppolicies "github.com/nsathyaseelan/kyverno/pkg/clients/nsathyaseelan/kyvernov2alpha1/cleanuppolicies"
+	clustercleanuppolicies "github.com/nsathyaseelan/kyverno/pkg/clients/nsathyaseelan/kyvernov2alpha1/clustercleanuppolicies"
+	policyexceptions "github.com/nsathyaseelan/kyverno/pkg/clients/nsathyaseelan/kyvernov2alpha1/policyexceptions"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	"k8s.io/client-go/rest"
 )
 

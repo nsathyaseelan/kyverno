@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	horizontalpodautoscalers "github.com/kyverno/kyverno/pkg/clients/kube/autoscalingv1/horizontalpodautoscalers"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	horizontalpodautoscalers "github.com/nsathyaseelan/kyverno/pkg/clients/kube/autoscalingv1/horizontalpodautoscalers"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_autoscaling_v1 "k8s.io/client-go/kubernetes/typed/autoscaling/v1"
 	"k8s.io/client-go/rest"
 )

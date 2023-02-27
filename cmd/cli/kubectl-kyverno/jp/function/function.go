@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kyverno/kyverno/pkg/engine/jmespath"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/jmespath"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"
 	"k8s.io/apimachinery/pkg/util/sets"

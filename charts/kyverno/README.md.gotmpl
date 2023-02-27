@@ -42,7 +42,7 @@ $ kubectl create namespace kyverno
 **Install the Kyverno chart:**
 
 ```console
-$ helm install kyverno --namespace kyverno kyverno/kyverno
+$ helm install kyverno --namespace kyverno nsathyaseelan/kyverno
 ```
 
 The command deploys Kyverno on the Kubernetes cluster with default configuration. The [installation](https://kyverno.io/docs/installation/) guide lists the parameters that can be configured during installation.
@@ -126,7 +126,7 @@ In `v3` chart values changed significantly, please read the instructions below t
 
 - Image tags are now validated and must be strings, if you use image tags in the `1.35` form please add quotes around the tag value. 
 
-- Image references are now using the `registry` setting, if you override the registry or repository fields please use `registry` (`--set image.registry=ghcr.io --set image.repository=kyverno/kyverno` instead of `--set image.repository=ghcr.io/kyverno/kyverno`).
+- Image references are now using the `registry` setting, if you override the registry or repository fields please use `registry` (`--set image.registry=ghcr.io --set image.repository=nsathyaseelan/kyverno` instead of `--set image.repository=ghcr.io/nsathyaseelan/kyverno`).
 
 ## Uninstalling the Chart
 

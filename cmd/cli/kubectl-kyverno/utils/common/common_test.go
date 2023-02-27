@@ -3,8 +3,8 @@ package common
 import (
 	"testing"
 
-	"github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	yamlutils "github.com/kyverno/kyverno/pkg/utils/yaml"
+	"github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	yamlutils "github.com/nsathyaseelan/kyverno/pkg/utils/yaml"
 	"gotest.tools/assert"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

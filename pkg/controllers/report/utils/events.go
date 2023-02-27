@@ -2,9 +2,9 @@ package utils
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/config"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	"github.com/kyverno/kyverno/pkg/event"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	"github.com/nsathyaseelan/kyverno/pkg/event"
 )
 
 func GenerateEvents(logger logr.Logger, eventGen event.Interface, config config.Configuration, results ...*engineapi.EngineResponse) {

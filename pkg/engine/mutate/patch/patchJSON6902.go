@@ -6,7 +6,7 @@ import (
 
 	jsonpatch "github.com/evanphx/json-patch/v5"
 	"github.com/go-logr/logr"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/yaml"
 )

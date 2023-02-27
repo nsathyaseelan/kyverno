@@ -3,9 +3,9 @@ package engine
 import (
 	"strings"
 
-	"github.com/kyverno/kyverno/pkg/clients/dclient"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

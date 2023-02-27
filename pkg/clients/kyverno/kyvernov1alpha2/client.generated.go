@@ -2,12 +2,12 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	github_com_kyverno_kyverno_pkg_client_clientset_versioned_typed_kyverno_v1alpha2 "github.com/kyverno/kyverno/pkg/client/clientset/versioned/typed/kyverno/v1alpha2"
-	admissionreports "github.com/kyverno/kyverno/pkg/clients/kyverno/kyvernov1alpha2/admissionreports"
-	backgroundscanreports "github.com/kyverno/kyverno/pkg/clients/kyverno/kyvernov1alpha2/backgroundscanreports"
-	clusteradmissionreports "github.com/kyverno/kyverno/pkg/clients/kyverno/kyvernov1alpha2/clusteradmissionreports"
-	clusterbackgroundscanreports "github.com/kyverno/kyverno/pkg/clients/kyverno/kyvernov1alpha2/clusterbackgroundscanreports"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	github_com_kyverno_kyverno_pkg_client_clientset_versioned_typed_kyverno_v1alpha2 "github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned/typed/kyverno/v1alpha2"
+	admissionreports "github.com/nsathyaseelan/kyverno/pkg/clients/nsathyaseelan/kyvernov1alpha2/admissionreports"
+	backgroundscanreports "github.com/nsathyaseelan/kyverno/pkg/clients/nsathyaseelan/kyvernov1alpha2/backgroundscanreports"
+	clusteradmissionreports "github.com/nsathyaseelan/kyverno/pkg/clients/nsathyaseelan/kyvernov1alpha2/clusteradmissionreports"
+	clusterbackgroundscanreports "github.com/nsathyaseelan/kyverno/pkg/clients/nsathyaseelan/kyvernov1alpha2/clusterbackgroundscanreports"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	"k8s.io/client-go/rest"
 )
 

@@ -3,9 +3,9 @@ package policyresults
 import (
 	"context"
 
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 )
 
 func registerPolicyResultsMetric(

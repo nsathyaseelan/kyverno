@@ -4,10 +4,10 @@ import (
 	"reflect"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	kyvernov1alpha2 "github.com/kyverno/kyverno/api/kyverno/v1alpha2"
-	"github.com/kyverno/kyverno/pkg/autogen"
-	"github.com/kyverno/kyverno/pkg/policy"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1alpha2 "github.com/nsathyaseelan/kyverno/api/kyverno/v1alpha2"
+	"github.com/nsathyaseelan/kyverno/pkg/autogen"
+	"github.com/nsathyaseelan/kyverno/pkg/policy"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 )

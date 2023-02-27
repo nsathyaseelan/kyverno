@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
 )
 
 func increaseRetryAnnotation(ur *kyvernov1beta1.UpdateRequest) (int, map[string]string, error) {

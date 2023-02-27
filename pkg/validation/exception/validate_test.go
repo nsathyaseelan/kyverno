@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/kyverno/kyverno/api/kyverno/v2alpha1"
-	"github.com/kyverno/kyverno/pkg/logging"
-	admissionutils "github.com/kyverno/kyverno/pkg/utils/admission"
+	"github.com/nsathyaseelan/kyverno/api/kyverno/v2alpha1"
+	"github.com/nsathyaseelan/kyverno/pkg/logging"
+	admissionutils "github.com/nsathyaseelan/kyverno/pkg/utils/admission"
 	"gotest.tools/assert"
 )
 

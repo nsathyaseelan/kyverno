@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	kyverno "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/engine/context"
-	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	kyverno "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
 	"gotest.tools/assert"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )

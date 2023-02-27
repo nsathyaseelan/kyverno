@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	v1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/engine/context"
-	"github.com/kyverno/kyverno/pkg/engine/internal"
-	"github.com/kyverno/kyverno/pkg/utils/api"
-	"github.com/kyverno/kyverno/pkg/utils/image"
+	v1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/internal"
+	"github.com/nsathyaseelan/kyverno/pkg/utils/api"
+	"github.com/nsathyaseelan/kyverno/pkg/utils/image"
 	"gotest.tools/assert"
 	apiextv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 )

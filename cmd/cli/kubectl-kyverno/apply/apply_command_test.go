@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	preport "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
+	preport "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
 	"gotest.tools/assert"
 )
 

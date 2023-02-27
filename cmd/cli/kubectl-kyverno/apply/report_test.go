@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	kyverno "github.com/kyverno/kyverno/api/kyverno/v1"
-	preport "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
-	"github.com/kyverno/kyverno/cmd/cli/kubectl-kyverno/utils/common"
-	kyvCommon "github.com/kyverno/kyverno/cmd/cli/kubectl-kyverno/utils/common"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	kyverno "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	preport "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
+	"github.com/nsathyaseelan/kyverno/cmd/cli/kubectl-kyverno/utils/common"
+	kyvCommon "github.com/nsathyaseelan/kyverno/cmd/cli/kubectl-kyverno/utils/common"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
 	"gotest.tools/assert"
 	v1 "k8s.io/api/core/v1"
 )

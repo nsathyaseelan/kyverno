@@ -3,7 +3,7 @@ package version
 import (
 	"fmt"
 
-	"github.com/kyverno/kyverno/pkg/version"
+	"github.com/nsathyaseelan/kyverno/pkg/version"
 	"github.com/spf13/cobra"
 )
 

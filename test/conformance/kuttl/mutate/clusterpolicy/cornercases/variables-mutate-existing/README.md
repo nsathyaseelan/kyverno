@@ -8,4 +8,4 @@ With the mutateExisting policy, the variable `request.object` should always be s
 
 ## Reference Issue(s)
 
-https://github.com/kyverno/kyverno/issues/5820
+https://github.com/nsathyaseelan/kyverno/issues/5820

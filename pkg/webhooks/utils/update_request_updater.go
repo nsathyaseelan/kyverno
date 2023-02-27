@@ -4,11 +4,11 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	"github.com/kyverno/kyverno/pkg/background/common"
-	"github.com/kyverno/kyverno/pkg/background/generate"
-	"github.com/kyverno/kyverno/pkg/client/clientset/versioned"
-	kyvernov1beta1listers "github.com/kyverno/kyverno/pkg/client/listers/kyverno/v1beta1"
+	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	"github.com/nsathyaseelan/kyverno/pkg/background/common"
+	"github.com/nsathyaseelan/kyverno/pkg/background/generate"
+	"github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned"
+	kyvernov1beta1listers "github.com/nsathyaseelan/kyverno/pkg/client/listers/kyverno/v1beta1"
 )
 
 type UpdateRequestUpdater interface {

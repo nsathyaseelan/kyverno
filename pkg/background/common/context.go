@@ -5,13 +5,13 @@ import (
 	"reflect"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	"github.com/kyverno/kyverno/pkg/clients/dclient"
-	"github.com/kyverno/kyverno/pkg/config"
-	"github.com/kyverno/kyverno/pkg/engine"
-	"github.com/kyverno/kyverno/pkg/engine/context"
-	admissionutils "github.com/kyverno/kyverno/pkg/utils/admission"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	"github.com/nsathyaseelan/kyverno/pkg/engine"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	admissionutils "github.com/nsathyaseelan/kyverno/pkg/utils/admission"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

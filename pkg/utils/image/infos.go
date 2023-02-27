@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/distribution/distribution/reference"
-	"github.com/kyverno/kyverno/pkg/config"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 )
 

@@ -5,7 +5,7 @@ This lab sets up the following components:
 - [ingress-nginx](https://github.com/kubernetes/ingress-nginx)
 - [ArgoCD](https://argo-cd.readthedocs.io)
 - ArgoCD application to deploy [kyverno](https://kyverno.io)
-- ArgoCD application to deploy [kyverno-policies](https://artifacthub.io/packages/helm/kyverno/kyverno-policies)
+- ArgoCD application to deploy [kyverno-policies](https://artifacthub.io/packages/helm/nsathyaseelan/kyverno-policies)
 - ArgoCD application to deploy [policy-reporter](https://kyverno.github.io/policy-reporter)
 - ArgoCD application to deploy [metrics-server](https://github.com/kubernetes-sigs/metrics-server)
 - ArgoCD application to deploy [kube-prometheus-stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack)

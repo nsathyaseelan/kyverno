@@ -15,4 +15,4 @@ The pod is mutated with annotation `org: kyverno-test`.
 
 ## Reference Issue(s)
 
-https://github.com/kyverno/kyverno/issues/6176
+https://github.com/nsathyaseelan/kyverno/issues/6176

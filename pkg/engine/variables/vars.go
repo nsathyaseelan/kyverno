@@ -10,13 +10,13 @@ import (
 
 	"github.com/go-logr/logr"
 	gojmespath "github.com/jmespath/go-jmespath"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/engine/anchor"
-	"github.com/kyverno/kyverno/pkg/engine/context"
-	jsonUtils "github.com/kyverno/kyverno/pkg/engine/jsonutils"
-	"github.com/kyverno/kyverno/pkg/engine/operator"
-	"github.com/kyverno/kyverno/pkg/logging"
-	"github.com/kyverno/kyverno/pkg/utils/jsonpointer"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/anchor"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	jsonUtils "github.com/nsathyaseelan/kyverno/pkg/engine/jsonutils"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/operator"
+	"github.com/nsathyaseelan/kyverno/pkg/logging"
+	"github.com/nsathyaseelan/kyverno/pkg/utils/jsonpointer"
 )
 
 var RegexVariables = regexp.MustCompile(`(^|[^\\])(\{\{(?:\{[^{}]*\}|[^{}])*\}\})`)

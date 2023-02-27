@@ -217,7 +217,7 @@ spec:
                                 type: string
                               reference:
                                 description: 'Reference is image reference to a container
-                                  image in the registry. Example: ghcr.io/kyverno/kyverno:latest'
+                                  image in the registry. Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                 type: string
                             required:
                             - reference
@@ -1794,7 +1794,7 @@ spec:
                                         reference:
                                           description: 'Reference is image reference
                                             to a container image in the registry.
-                                            Example: ghcr.io/kyverno/kyverno:latest'
+                                            Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                           type: string
                                       required:
                                       - reference
@@ -2133,7 +2133,7 @@ spec:
                                         reference:
                                           description: 'Reference is image reference
                                             to a container image in the registry.
-                                            Example: ghcr.io/kyverno/kyverno:latest'
+                                            Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                           type: string
                                       required:
                                       - reference
@@ -3450,7 +3450,7 @@ spec:
                                   reference:
                                     description: 'Reference is image reference to
                                       a container image in the registry. Example:
-                                      ghcr.io/kyverno/kyverno:latest'
+                                      ghcr.io/nsathyaseelan/kyverno:latest'
                                     type: string
                                 required:
                                 - reference
@@ -5099,7 +5099,7 @@ spec:
                                             reference:
                                               description: 'Reference is image reference
                                                 to a container image in the registry.
-                                                Example: ghcr.io/kyverno/kyverno:latest'
+                                                Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                               type: string
                                           required:
                                           - reference
@@ -5454,7 +5454,7 @@ spec:
                                             reference:
                                               description: 'Reference is image reference
                                                 to a container image in the registry.
-                                                Example: ghcr.io/kyverno/kyverno:latest'
+                                                Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                               type: string
                                           required:
                                           - reference
@@ -6911,7 +6911,7 @@ spec:
                                 type: string
                               reference:
                                 description: 'Reference is image reference to a container
-                                  image in the registry. Example: ghcr.io/kyverno/kyverno:latest'
+                                  image in the registry. Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                 type: string
                             required:
                             - reference
@@ -8092,7 +8092,7 @@ spec:
                                         reference:
                                           description: 'Reference is image reference
                                             to a container image in the registry.
-                                            Example: ghcr.io/kyverno/kyverno:latest'
+                                            Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                           type: string
                                       required:
                                       - reference
@@ -8599,7 +8599,7 @@ spec:
                                         reference:
                                           description: 'Reference is image reference
                                             to a container image in the registry.
-                                            Example: ghcr.io/kyverno/kyverno:latest'
+                                            Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                           type: string
                                       required:
                                       - reference
@@ -9876,7 +9876,7 @@ spec:
                                   reference:
                                     description: 'Reference is image reference to
                                       a container image in the registry. Example:
-                                      ghcr.io/kyverno/kyverno:latest'
+                                      ghcr.io/nsathyaseelan/kyverno:latest'
                                     type: string
                                 required:
                                 - reference
@@ -11525,7 +11525,7 @@ spec:
                                             reference:
                                               description: 'Reference is image reference
                                                 to a container image in the registry.
-                                                Example: ghcr.io/kyverno/kyverno:latest'
+                                                Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                               type: string
                                           required:
                                           - reference
@@ -11880,7 +11880,7 @@ spec:
                                             reference:
                                               description: 'Reference is image reference
                                                 to a container image in the registry.
-                                                Example: ghcr.io/kyverno/kyverno:latest'
+                                                Example: ghcr.io/nsathyaseelan/kyverno:latest'
                                               type: string
                                           required:
                                           - reference

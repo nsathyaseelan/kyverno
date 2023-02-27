@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/clients/dclient"
-	"github.com/kyverno/kyverno/pkg/openapi"
-	policyvalidate "github.com/kyverno/kyverno/pkg/policy"
-	admissionutils "github.com/kyverno/kyverno/pkg/utils/admission"
-	"github.com/kyverno/kyverno/pkg/webhooks"
+	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	"github.com/nsathyaseelan/kyverno/pkg/openapi"
+	policyvalidate "github.com/nsathyaseelan/kyverno/pkg/policy"
+	admissionutils "github.com/nsathyaseelan/kyverno/pkg/utils/admission"
+	"github.com/nsathyaseelan/kyverno/pkg/webhooks"
 	admissionv1 "k8s.io/api/admission/v1"
 )
 

@@ -42,7 +42,7 @@ $ kubectl create namespace kyverno
 **Install the Kyverno chart:**
 
 ```console
-$ helm install kyverno --namespace kyverno kyverno/kyverno
+$ helm install kyverno --namespace kyverno nsathyaseelan/kyverno
 ```
 
 The command deploys Kyverno on the Kubernetes cluster with default configuration. The [installation](https://kyverno.io/docs/installation/) guide lists the parameters that can be configured during installation.
@@ -126,7 +126,7 @@ In `v3` chart values changed significantly, please read the instructions below t
 
 - Image tags are now validated and must be strings, if you use image tags in the `1.35` form please add quotes around the tag value.
 
-- Image references are now using the `registry` setting, if you override the registry or repository fields please use `registry` (`--set image.registry=ghcr.io --set image.repository=kyverno/kyverno` instead of `--set image.repository=ghcr.io/kyverno/kyverno`).
+- Image references are now using the `registry` setting, if you override the registry or repository fields please use `registry` (`--set image.registry=ghcr.io --set image.repository=nsathyaseelan/kyverno` instead of `--set image.repository=ghcr.io/nsathyaseelan/kyverno`).
 
 ## Uninstalling the Chart
 
@@ -178,12 +178,12 @@ The command removes all the Kubernetes components associated with the chart and 
 | rbac.serviceAccount.name | string | `nil` | The ServiceAccount name |
 | rbac.serviceAccount.annotations | object | `{}` | Annotations for the ServiceAccount |
 | image.registry | string | `"ghcr.io"` | Image registry |
-| image.repository | string | `"kyverno/kyverno"` | Image repository |
+| image.repository | string | `"nsathyaseelan/kyverno"` | Image repository |
 | image.tag | string | `nil` | Image tag Defaults to appVersion in Chart.yaml if omitted |
 | image.pullPolicy | string | `"IfNotPresent"` | Image pull policy |
 | image.pullSecrets | list | `[]` | Image pull secrets |
 | initImage.registry | string | `"ghcr.io"` | Image registry |
-| initImage.repository | string | `"kyverno/kyvernopre"` | Image repository |
+| initImage.repository | string | `"nsathyaseelan/kyvernopre"` | Image repository |
 | initImage.tag | string | `nil` | Image tag If initImage.tag is missing, defaults to image.tag |
 | initImage.pullPolicy | string | `nil` | Image pull policy If initImage.pullPolicy is missing, defaults to image.pullPolicy |
 | initContainer.extraArgs | list | `["--loggingFormat=text"]` | Extra arguments to give to the kyvernopre binary. |
@@ -453,7 +453,7 @@ Please see https://kyverno.io/docs/installation/#security-vs-operability for mor
 
 ## Source Code
 
-* <https://github.com/kyverno/kyverno>
+* <https://github.com/nsathyaseelan/kyverno>
 
 ## Requirements
 

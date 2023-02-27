@@ -1,8 +1,8 @@
 package match
 
 import (
-	"github.com/kyverno/kyverno/pkg/engine/wildcards"
-	"github.com/kyverno/kyverno/pkg/logging"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/wildcards"
+	"github.com/nsathyaseelan/kyverno/pkg/logging"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 )

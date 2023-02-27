@@ -2,7 +2,7 @@ package variables
 
 import (
 	"github.com/jmespath/go-jmespath"
-	enginecontext "github.com/kyverno/kyverno/pkg/engine/context"
+	enginecontext "github.com/nsathyaseelan/kyverno/pkg/engine/context"
 )
 
 func CheckNotFoundErr(err error) bool {

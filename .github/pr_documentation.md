@@ -15,7 +15,7 @@ Examples of changes which are exempt:
 * Test cases
 * Other changes which are internal to the code base
 
-If you are unsure what type your PR falls under, please either start a thread on the [Kyverno Slack channel](https://kubernetes.slack.com/) or a [discussion](https://github.com/kyverno/kyverno/discussions).
+If you are unsure what type your PR falls under, please either start a thread on the [Kyverno Slack channel](https://kubernetes.slack.com/) or a [discussion](https://github.com/nsathyaseelan/kyverno/discussions).
 
 ## Story Process
 

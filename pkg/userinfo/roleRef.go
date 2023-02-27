@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kyverno/kyverno/pkg/config"
-	"github.com/kyverno/kyverno/pkg/logging"
-	datautils "github.com/kyverno/kyverno/pkg/utils/data"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	"github.com/nsathyaseelan/kyverno/pkg/logging"
+	datautils "github.com/nsathyaseelan/kyverno/pkg/utils/data"
 	admissionv1 "k8s.io/api/admission/v1"
 	authenticationv1 "k8s.io/api/authentication/v1"
 	rbacv1 "k8s.io/api/rbac/v1"

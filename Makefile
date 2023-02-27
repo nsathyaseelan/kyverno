@@ -152,7 +152,7 @@ CLI_BIN        := $(CLI_DIR)/kubectl-kyverno
 CLEANUP_BIN    := $(CLEANUP_DIR)/cleanup-controller
 REPORTS_BIN    := $(REPORTS_DIR)/reports-controller
 BACKGROUND_BIN := $(BACKGROUND_DIR)/background-controller
-PACKAGE        ?= github.com/kyverno/kyverno
+PACKAGE        ?= github.com/nsathyaseelan/kyverno
 CGO_ENABLED    ?= 0
 LD_FLAGS        = "-s -w -X $(PACKAGE)/pkg/version.BuildVersion=$(GIT_VERSION) -X $(PACKAGE)/pkg/version.BuildHash=$(GIT_HASH) -X $(PACKAGE)/pkg/version.BuildTime=$(TIMESTAMP)"
 LD_FLAGS_DEV    = "-s -w -X $(PACKAGE)/pkg/version.BuildVersion=$(GIT_VERSION_DEV) -X $(PACKAGE)/pkg/version.BuildHash=$(GIT_HASH) -X $(PACKAGE)/pkg/version.BuildTime=$(TIMESTAMP)"
@@ -301,11 +301,11 @@ ko-build-all: ko-build-kyverno-init ko-build-kyverno ko-build-cli ko-build-clean
 ################
 
 REGISTRY_USERNAME   ?= dummy
-KO_KYVERNOPRE_IMAGE := ko.local/github.com/kyverno/kyverno/cmd/kyverno-init
-KO_KYVERNO_IMAGE    := ko.local/github.com/kyverno/kyverno/cmd/kyverno
-KO_CLEANUP_IMAGE    := ko.local/github.com/kyverno/kyverno/cmd/cleanup-controller
-KO_REPORTS_IMAGE    := ko.local/github.com/kyverno/kyverno/cmd/reports-controller
-KO_BACKGROUND_IMAGE := ko.local/github.com/kyverno/kyverno/cmd/background-controller
+KO_KYVERNOPRE_IMAGE := ko.local/github.com/nsathyaseelan/kyverno/cmd/kyverno-init
+KO_KYVERNO_IMAGE    := ko.local/github.com/nsathyaseelan/kyverno/cmd/kyverno
+KO_CLEANUP_IMAGE    := ko.local/github.com/nsathyaseelan/kyverno/cmd/cleanup-controller
+KO_REPORTS_IMAGE    := ko.local/github.com/nsathyaseelan/kyverno/cmd/reports-controller
+KO_BACKGROUND_IMAGE := ko.local/github.com/nsathyaseelan/kyverno/cmd/background-controller
 PLATFORMS           := all
 KO_TAGS             := $(IMAGE_TAG_LATEST),$(IMAGE_TAG)
 KO_TAGS_DEV         := $(IMAGE_TAG_LATEST),$(IMAGE_TAG_DEV)
@@ -548,7 +548,7 @@ codegen-manifest-debug: $(HELM) ## Create debug manifest
  		| $(SED) -e '/^#.*/d' \
 		> ./.manifest/debug.yaml
 
-# guidance https://github.com/kyverno/kyverno/wiki/Generate-a-Release
+# guidance https://github.com/nsathyaseelan/kyverno/wiki/Generate-a-Release
 .PHONY: codegen-manifest-release
 codegen-manifest-release: $(HELM) ## Create release manifest
 	@echo Generate release manifest... >&2

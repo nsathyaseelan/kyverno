@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	urkyverno "github.com/kyverno/kyverno/api/kyverno/v1beta1"
+	urkyverno "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
 	authenticationv1 "k8s.io/api/authentication/v1"
 )
 

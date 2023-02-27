@@ -22,7 +22,7 @@ limitations under the License.
 package v1alpha2
 
 import (
-	policyreportv1alpha2 "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
+	policyreportv1alpha2 "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
 	"k8s.io/apimachinery/pkg/runtime"
 )
 

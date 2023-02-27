@@ -8,7 +8,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/authn/github"
 	"github.com/google/go-containerregistry/pkg/v1/google"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
 	"github.com/spf13/cobra"
 )
 

@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	kyvernov2beta1 "github.com/kyverno/kyverno/api/kyverno/v2beta1"
-	enginecontext "github.com/kyverno/kyverno/pkg/engine/context"
-	"github.com/kyverno/kyverno/pkg/engine/variables"
-	"github.com/kyverno/kyverno/pkg/engine/variables/operator"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov2beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v2beta1"
+	enginecontext "github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/variables"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/variables/operator"
 )
 
 func checkAnyAllConditions(logger logr.Logger, ctx enginecontext.Interface, condition kyvernov2beta1.AnyAllConditions) (bool, error) {

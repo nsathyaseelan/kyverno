@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/kyverno/kyverno/pkg/config"
-	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

@@ -1,8 +1,8 @@
 package report
 
 import (
-	kyvernov1alpha2 "github.com/kyverno/kyverno/api/kyverno/v1alpha2"
-	policyreportv1alpha2 "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
+	kyvernov1alpha2 "github.com/nsathyaseelan/kyverno/api/kyverno/v1alpha2"
+	policyreportv1alpha2 "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
 )
 
 func DeepCopy(report kyvernov1alpha2.ReportInterface) kyvernov1alpha2.ReportInterface {

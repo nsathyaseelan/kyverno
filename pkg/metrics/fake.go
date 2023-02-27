@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/kyverno/kyverno/pkg/config"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
 	"go.opentelemetry.io/otel/metric/global"
 	"k8s.io/klog/v2"
 )

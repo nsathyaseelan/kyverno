@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/config"
-	admissionutils "github.com/kyverno/kyverno/pkg/utils/admission"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	admissionutils "github.com/nsathyaseelan/kyverno/pkg/utils/admission"
 	admissionv1 "k8s.io/api/admission/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )

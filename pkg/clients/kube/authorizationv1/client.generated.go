@@ -2,11 +2,11 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	localsubjectaccessreviews "github.com/kyverno/kyverno/pkg/clients/kube/authorizationv1/localsubjectaccessreviews"
-	selfsubjectaccessreviews "github.com/kyverno/kyverno/pkg/clients/kube/authorizationv1/selfsubjectaccessreviews"
-	selfsubjectrulesreviews "github.com/kyverno/kyverno/pkg/clients/kube/authorizationv1/selfsubjectrulesreviews"
-	subjectaccessreviews "github.com/kyverno/kyverno/pkg/clients/kube/authorizationv1/subjectaccessreviews"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	localsubjectaccessreviews "github.com/nsathyaseelan/kyverno/pkg/clients/kube/authorizationv1/localsubjectaccessreviews"
+	selfsubjectaccessreviews "github.com/nsathyaseelan/kyverno/pkg/clients/kube/authorizationv1/selfsubjectaccessreviews"
+	selfsubjectrulesreviews "github.com/nsathyaseelan/kyverno/pkg/clients/kube/authorizationv1/selfsubjectrulesreviews"
+	subjectaccessreviews "github.com/nsathyaseelan/kyverno/pkg/clients/kube/authorizationv1/subjectaccessreviews"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_authorization_v1 "k8s.io/client-go/kubernetes/typed/authorization/v1"
 	"k8s.io/client-go/rest"
 )

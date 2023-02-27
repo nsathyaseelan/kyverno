@@ -2,9 +2,9 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	validatingadmissionpolicies "github.com/kyverno/kyverno/pkg/clients/kube/admissionregistrationv1alpha1/validatingadmissionpolicies"
-	validatingadmissionpolicybindings "github.com/kyverno/kyverno/pkg/clients/kube/admissionregistrationv1alpha1/validatingadmissionpolicybindings"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	validatingadmissionpolicies "github.com/nsathyaseelan/kyverno/pkg/clients/kube/admissionregistrationv1alpha1/validatingadmissionpolicies"
+	validatingadmissionpolicybindings "github.com/nsathyaseelan/kyverno/pkg/clients/kube/admissionregistrationv1alpha1/validatingadmissionpolicybindings"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_admissionregistration_v1alpha1 "k8s.io/client-go/kubernetes/typed/admissionregistration/v1alpha1"
 	"k8s.io/client-go/rest"
 )

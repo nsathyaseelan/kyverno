@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/engine/anchor"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	"github.com/kyverno/kyverno/pkg/engine/variables"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/anchor"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/variables"
 	"gotest.tools/assert"
 )
 

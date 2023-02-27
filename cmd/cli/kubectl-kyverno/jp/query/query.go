@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	gojmespath "github.com/jmespath/go-jmespath"
-	"github.com/kyverno/kyverno/pkg/engine/jmespath"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/jmespath"
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 )

@@ -6,7 +6,7 @@ import (
 
 	"github.com/ghodss/yaml"
 	"github.com/go-logr/logr"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
 	assert "github.com/stretchr/testify/assert"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )

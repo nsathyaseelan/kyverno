@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	priorityclasses "github.com/kyverno/kyverno/pkg/clients/kube/schedulingv1alpha1/priorityclasses"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	priorityclasses "github.com/nsathyaseelan/kyverno/pkg/clients/kube/schedulingv1alpha1/priorityclasses"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_scheduling_v1alpha1 "k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1"
 	"k8s.io/client-go/rest"
 )

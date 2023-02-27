@@ -3,7 +3,7 @@ package admission
 import (
 	"fmt"
 
-	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
 	admissionv1 "k8s.io/api/admission/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	datautils "github.com/kyverno/kyverno/pkg/utils/data"
+	datautils "github.com/nsathyaseelan/kyverno/pkg/utils/data"
 	"golang.org/x/exp/slices"
 )
 

@@ -1,8 +1,8 @@
 package utils
 
 import (
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	"github.com/kyverno/kyverno/pkg/event"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	"github.com/nsathyaseelan/kyverno/pkg/event"
 )
 
 // GenerateEvents generates event info for the engine responses

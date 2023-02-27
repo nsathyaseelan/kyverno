@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"strings"
 
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/engine/variables"
-	apiutils "github.com/kyverno/kyverno/pkg/utils/api"
-	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/variables"
+	apiutils "github.com/nsathyaseelan/kyverno/pkg/utils/api"
+	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
 	apiextensions "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 )
 
@@ -17,8 +17,8 @@ import (
 // otherwise (without the pointer), it will be set to empty value
 // - an empty struct in this case, some may fail the schema validation
 // may related to:
-// https://github.com/kyverno/kyverno/pull/549#discussion_r360088556
-// https://github.com/kyverno/kyverno/issues/568
+// https://github.com/nsathyaseelan/kyverno/pull/549#discussion_r360088556
+// https://github.com/nsathyaseelan/kyverno/issues/568
 
 type kyvernoRule struct {
 	Name             string                        `json:"name"`

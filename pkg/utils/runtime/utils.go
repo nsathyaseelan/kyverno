@@ -2,8 +2,8 @@ package runtime
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/config"
-	"github.com/kyverno/kyverno/pkg/tls"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	"github.com/nsathyaseelan/kyverno/pkg/tls"
 	appsv1 "k8s.io/api/apps/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	appsv1informers "k8s.io/client-go/informers/apps/v1"

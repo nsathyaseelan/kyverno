@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/go-logr/logr"
-	github_com_kyverno_kyverno_pkg_client_clientset_versioned "github.com/kyverno/kyverno/pkg/client/clientset/versioned"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	github_com_kyverno_kyverno_pkg_client_clientset_versioned "github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	"k8s.io/client-go/rest"
 )
 

@@ -5,8 +5,8 @@ test:
 
 image:
   registry: ko.local
-  repository: github.com/kyverno/kyverno/cmd/kyverno
+  repository: github.com/nsathyaseelan/kyverno/cmd/kyverno
 
 initImage:
   registry: ko.local
-  repository: github.com/kyverno/kyverno/cmd/initcontainer
+  repository: github.com/nsathyaseelan/kyverno/cmd/initcontainer

@@ -207,7 +207,7 @@ image:
   # -- Image registry
   registry: ghcr.io
   # -- Image repository
-  repository: kyverno/kyverno
+  repository: nsathyaseelan/kyverno
   # -- (string) Image tag
   # Defaults to appVersion in Chart.yaml if omitted
   tag: ~
@@ -221,7 +221,7 @@ initImage:
   # -- Image registry
   registry: ghcr.io
   # -- Image repository
-  repository: kyverno/kyvernopre
+  repository: nsathyaseelan/kyvernopre
   # -- (string) Image tag
   # If initImage.tag is missing, defaults to image.tag
   tag: ~

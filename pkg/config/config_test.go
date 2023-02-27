@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kyverno/kyverno/pkg/config"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
 	"gotest.tools/assert"
 	"k8s.io/apimachinery/pkg/runtime"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"

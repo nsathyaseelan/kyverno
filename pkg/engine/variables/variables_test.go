@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	urkyverno "github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	"github.com/kyverno/kyverno/pkg/engine/context"
+	urkyverno "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
 	"gotest.tools/assert"
 	authenticationv1 "k8s.io/api/authentication/v1"
 )

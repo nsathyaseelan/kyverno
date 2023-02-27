@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

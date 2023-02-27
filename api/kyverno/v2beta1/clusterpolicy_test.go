@@ -3,7 +3,7 @@ package v2beta1
 import (
 	"testing"
 
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
 	"gotest.tools/assert"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/validation/field"

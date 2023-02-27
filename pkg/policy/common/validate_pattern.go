@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/kyverno/kyverno/pkg/engine/anchor"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/anchor"
 )
 
 // ValidatePattern validates the pattern

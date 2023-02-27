@@ -1,8 +1,8 @@
 package policycache
 
 import (
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/utils/wildcard"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/utils/wildcard"
 )
 
 // Cache get method use for to get policy names and mostly use to test cache testcases

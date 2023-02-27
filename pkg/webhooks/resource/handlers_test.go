@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	kyverno "github.com/kyverno/kyverno/api/kyverno/v1"
-	log "github.com/kyverno/kyverno/pkg/logging"
-	"github.com/kyverno/kyverno/pkg/policycache"
+	kyverno "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	log "github.com/nsathyaseelan/kyverno/pkg/logging"
+	"github.com/nsathyaseelan/kyverno/pkg/policycache"
 	"gotest.tools/assert"
 	v1 "k8s.io/api/admission/v1"
 	"k8s.io/apimachinery/pkg/runtime"

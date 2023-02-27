@@ -1,7 +1,7 @@
 package v1
 
 import (
-	log "github.com/kyverno/kyverno/pkg/logging"
+	log "github.com/nsathyaseelan/kyverno/pkg/logging"
 	"k8s.io/apiextensions-apiserver/pkg/apis/apiextensions"
 	apiextv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	"k8s.io/apimachinery/pkg/util/validation/field"

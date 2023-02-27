@@ -3,9 +3,9 @@ package api
 import (
 	"context"
 
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	enginecontext "github.com/kyverno/kyverno/pkg/engine/context"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	enginecontext "github.com/nsathyaseelan/kyverno/pkg/engine/context"
 )
 
 type EngineContextLoader = func(ctx context.Context, contextEntries []kyvernov1.ContextEntry, jsonContext enginecontext.Interface) error

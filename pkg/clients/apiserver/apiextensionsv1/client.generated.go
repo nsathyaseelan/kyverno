@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	customresourcedefinitions "github.com/kyverno/kyverno/pkg/clients/apiserver/apiextensionsv1/customresourcedefinitions"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	customresourcedefinitions "github.com/nsathyaseelan/kyverno/pkg/clients/apiserver/apiextensionsv1/customresourcedefinitions"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_apiextensions_apiserver_pkg_client_clientset_clientset_typed_apiextensions_v1 "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1"
 	"k8s.io/client-go/rest"
 )

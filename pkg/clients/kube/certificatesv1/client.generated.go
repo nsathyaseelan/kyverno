@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	certificatesigningrequests "github.com/kyverno/kyverno/pkg/clients/kube/certificatesv1/certificatesigningrequests"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	certificatesigningrequests "github.com/nsathyaseelan/kyverno/pkg/clients/kube/certificatesv1/certificatesigningrequests"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_certificates_v1 "k8s.io/client-go/kubernetes/typed/certificates/v1"
 	"k8s.io/client-go/rest"
 )

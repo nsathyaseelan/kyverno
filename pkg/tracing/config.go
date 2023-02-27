@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/utils/kube"
-	"github.com/kyverno/kyverno/pkg/version"
+	"github.com/nsathyaseelan/kyverno/pkg/utils/kube"
+	"github.com/nsathyaseelan/kyverno/pkg/version"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"

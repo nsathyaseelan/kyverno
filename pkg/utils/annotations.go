@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	jsonutils "github.com/kyverno/kyverno/pkg/utils/json"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	jsonutils "github.com/nsathyaseelan/kyverno/pkg/utils/json"
 	yamlv2 "gopkg.in/yaml.v2"
 )
 

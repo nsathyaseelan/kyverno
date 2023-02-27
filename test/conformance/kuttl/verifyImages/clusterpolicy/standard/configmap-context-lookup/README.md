@@ -10,4 +10,4 @@ Policy is expected to be successfully created AND not result in an internal pani
 
 ## Reference Issue(s)
 
-https://github.com/kyverno/kyverno/issues/5704
+https://github.com/nsathyaseelan/kyverno/issues/5704

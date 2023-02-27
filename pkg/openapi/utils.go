@@ -9,8 +9,8 @@ import (
 
 	"github.com/google/gnostic/compiler"
 	openapiv2 "github.com/google/gnostic/openapiv2"
-	"github.com/kyverno/kyverno/data"
-	"github.com/kyverno/kyverno/pkg/logging"
+	"github.com/nsathyaseelan/kyverno/data"
+	"github.com/nsathyaseelan/kyverno/pkg/logging"
 	"golang.org/x/exp/slices"
 	"gopkg.in/yaml.v3"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -1,7 +1,7 @@
 package v2beta1
 
 import (
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
 	"k8s.io/apiextensions-apiserver/pkg/apis/apiextensions"
 	apiextv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 )

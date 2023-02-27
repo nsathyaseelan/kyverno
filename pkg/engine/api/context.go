@@ -6,13 +6,13 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/clients/dclient"
-	"github.com/kyverno/kyverno/pkg/engine/apicall"
-	enginecontext "github.com/kyverno/kyverno/pkg/engine/context"
-	"github.com/kyverno/kyverno/pkg/engine/jmespath"
-	"github.com/kyverno/kyverno/pkg/engine/variables"
-	"github.com/kyverno/kyverno/pkg/registryclient"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/apicall"
+	enginecontext "github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/jmespath"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/variables"
+	"github.com/nsathyaseelan/kyverno/pkg/registryclient"
 )
 
 func LoadVariable(logger logr.Logger, entry kyvernov1.ContextEntry, ctx enginecontext.Interface) (err error) {

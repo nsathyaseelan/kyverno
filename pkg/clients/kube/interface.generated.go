@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 )

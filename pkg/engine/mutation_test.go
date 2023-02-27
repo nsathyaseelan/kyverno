@@ -7,14 +7,14 @@ import (
 	"strings"
 	"testing"
 
-	kyverno "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/clients/dclient"
-	client "github.com/kyverno/kyverno/pkg/clients/dclient"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	enginecontext "github.com/kyverno/kyverno/pkg/engine/context"
-	enginetest "github.com/kyverno/kyverno/pkg/engine/test"
-	"github.com/kyverno/kyverno/pkg/registryclient"
-	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	kyverno "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	client "github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	enginecontext "github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	enginetest "github.com/nsathyaseelan/kyverno/pkg/engine/test"
+	"github.com/nsathyaseelan/kyverno/pkg/registryclient"
+	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
 	"gotest.tools/assert"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -301,7 +301,7 @@ func Test_variableSubstitutionCLI(t *testing.T) {
 	}
 }
 
-// https://github.com/kyverno/kyverno/issues/2022
+// https://github.com/nsathyaseelan/kyverno/issues/2022
 func Test_chained_rules(t *testing.T) {
 	policyRaw := []byte(`{
   "apiVersion": "kyverno.io/v1",

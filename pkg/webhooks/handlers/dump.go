@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	admissionutils "github.com/kyverno/kyverno/pkg/utils/admission"
-	kubeutils "github.com/kyverno/kyverno/pkg/utils/kube"
+	admissionutils "github.com/nsathyaseelan/kyverno/pkg/utils/admission"
+	kubeutils "github.com/nsathyaseelan/kyverno/pkg/utils/kube"
 	admissionv1 "k8s.io/api/admission/v1"
 	authenticationv1 "k8s.io/api/authentication/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

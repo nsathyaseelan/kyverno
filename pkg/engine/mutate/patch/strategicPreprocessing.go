@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/engine/anchor"
-	"github.com/kyverno/kyverno/pkg/engine/validate"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/anchor"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/validate"
 	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 

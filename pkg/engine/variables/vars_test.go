@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	v1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	"github.com/kyverno/kyverno/pkg/engine/context"
-	ju "github.com/kyverno/kyverno/pkg/engine/jsonutils"
+	v1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	"github.com/nsathyaseelan/kyverno/pkg/engine/context"
+	ju "github.com/nsathyaseelan/kyverno/pkg/engine/jsonutils"
 	"gotest.tools/assert"
 )
 

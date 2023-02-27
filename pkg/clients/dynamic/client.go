@@ -2,8 +2,8 @@ package clientset
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/clients/dynamic/resource"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	"github.com/nsathyaseelan/kyverno/pkg/clients/dynamic/resource"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
 )

@@ -1,10 +1,10 @@
 package report
 
 import (
-	kyvernov1alpha2 "github.com/kyverno/kyverno/api/kyverno/v1alpha2"
-	policyreportv1alpha2 "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	controllerutils "github.com/kyverno/kyverno/pkg/utils/controller"
+	kyvernov1alpha2 "github.com/nsathyaseelan/kyverno/api/kyverno/v1alpha2"
+	policyreportv1alpha2 "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	controllerutils "github.com/nsathyaseelan/kyverno/pkg/utils/controller"
 	admissionv1 "k8s.io/api/admission/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

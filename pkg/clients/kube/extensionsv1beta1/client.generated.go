@@ -2,13 +2,13 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	daemonsets "github.com/kyverno/kyverno/pkg/clients/kube/extensionsv1beta1/daemonsets"
-	deployments "github.com/kyverno/kyverno/pkg/clients/kube/extensionsv1beta1/deployments"
-	ingresses "github.com/kyverno/kyverno/pkg/clients/kube/extensionsv1beta1/ingresses"
-	networkpolicies "github.com/kyverno/kyverno/pkg/clients/kube/extensionsv1beta1/networkpolicies"
-	podsecuritypolicies "github.com/kyverno/kyverno/pkg/clients/kube/extensionsv1beta1/podsecuritypolicies"
-	replicasets "github.com/kyverno/kyverno/pkg/clients/kube/extensionsv1beta1/replicasets"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	daemonsets "github.com/nsathyaseelan/kyverno/pkg/clients/kube/extensionsv1beta1/daemonsets"
+	deployments "github.com/nsathyaseelan/kyverno/pkg/clients/kube/extensionsv1beta1/deployments"
+	ingresses "github.com/nsathyaseelan/kyverno/pkg/clients/kube/extensionsv1beta1/ingresses"
+	networkpolicies "github.com/nsathyaseelan/kyverno/pkg/clients/kube/extensionsv1beta1/networkpolicies"
+	podsecuritypolicies "github.com/nsathyaseelan/kyverno/pkg/clients/kube/extensionsv1beta1/podsecuritypolicies"
+	replicasets "github.com/nsathyaseelan/kyverno/pkg/clients/kube/extensionsv1beta1/replicasets"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_extensions_v1beta1 "k8s.io/client-go/kubernetes/typed/extensions/v1beta1"
 	"k8s.io/client-go/rest"
 )

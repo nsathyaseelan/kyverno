@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	engineapi "github.com/kyverno/kyverno/pkg/engine/api"
-	engineutils "github.com/kyverno/kyverno/pkg/utils/engine"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	engineapi "github.com/nsathyaseelan/kyverno/pkg/engine/api"
+	engineutils "github.com/nsathyaseelan/kyverno/pkg/utils/engine"
 	"gopkg.in/yaml.v2"
 )
 

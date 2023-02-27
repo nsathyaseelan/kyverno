@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/go-logr/logr"
-	"github.com/kyverno/kyverno/pkg/logging"
+	"github.com/nsathyaseelan/kyverno/pkg/logging"
 )
 
 func SetupLogger() logr.Logger {

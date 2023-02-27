@@ -2,9 +2,9 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	evictions "github.com/kyverno/kyverno/pkg/clients/kube/policyv1/evictions"
-	poddisruptionbudgets "github.com/kyverno/kyverno/pkg/clients/kube/policyv1/poddisruptionbudgets"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	evictions "github.com/nsathyaseelan/kyverno/pkg/clients/kube/policyv1/evictions"
+	poddisruptionbudgets "github.com/nsathyaseelan/kyverno/pkg/clients/kube/policyv1/poddisruptionbudgets"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_policy_v1 "k8s.io/client-go/kubernetes/typed/policy/v1"
 	"k8s.io/client-go/rest"
 )

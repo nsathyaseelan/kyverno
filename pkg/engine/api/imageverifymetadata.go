@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	jsonutils "github.com/kyverno/kyverno/pkg/utils/json"
+	jsonutils "github.com/nsathyaseelan/kyverno/pkg/utils/json"
 )
 
 const ImageVerifyAnnotationKey = "kyverno.io/verify-images"

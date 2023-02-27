@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-logr/logr"
 	github_com_google_gnostic_openapiv2 "github.com/google/gnostic/openapiv2"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	"go.uber.org/multierr"
 	k8s_io_apimachinery_pkg_apis_meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8s_io_apimachinery_pkg_version "k8s.io/apimachinery/pkg/version"

@@ -2,9 +2,9 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	mutatingwebhookconfigurations "github.com/kyverno/kyverno/pkg/clients/kube/admissionregistrationv1/mutatingwebhookconfigurations"
-	validatingwebhookconfigurations "github.com/kyverno/kyverno/pkg/clients/kube/admissionregistrationv1/validatingwebhookconfigurations"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	mutatingwebhookconfigurations "github.com/nsathyaseelan/kyverno/pkg/clients/kube/admissionregistrationv1/mutatingwebhookconfigurations"
+	validatingwebhookconfigurations "github.com/nsathyaseelan/kyverno/pkg/clients/kube/admissionregistrationv1/validatingwebhookconfigurations"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_admissionregistration_v1 "k8s.io/client-go/kubernetes/typed/admissionregistration/v1"
 	"k8s.io/client-go/rest"
 )

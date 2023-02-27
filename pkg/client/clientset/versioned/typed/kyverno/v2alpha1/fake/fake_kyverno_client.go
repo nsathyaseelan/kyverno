@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v2alpha1 "github.com/kyverno/kyverno/pkg/client/clientset/versioned/typed/kyverno/v2alpha1"
+	v2alpha1 "github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned/typed/kyverno/v2alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

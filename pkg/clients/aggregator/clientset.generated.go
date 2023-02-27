@@ -2,10 +2,10 @@ package clientset
 
 import (
 	"github.com/go-logr/logr"
-	apiregistrationv1 "github.com/kyverno/kyverno/pkg/clients/aggregator/apiregistrationv1"
-	apiregistrationv1beta1 "github.com/kyverno/kyverno/pkg/clients/aggregator/apiregistrationv1beta1"
-	discovery "github.com/kyverno/kyverno/pkg/clients/aggregator/discovery"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	apiregistrationv1 "github.com/nsathyaseelan/kyverno/pkg/clients/aggregator/apiregistrationv1"
+	apiregistrationv1beta1 "github.com/nsathyaseelan/kyverno/pkg/clients/aggregator/apiregistrationv1beta1"
+	discovery "github.com/nsathyaseelan/kyverno/pkg/clients/aggregator/discovery"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_discovery "k8s.io/client-go/discovery"
 	k8s_io_kube_aggregator_pkg_client_clientset_generated_clientset "k8s.io/kube-aggregator/pkg/client/clientset_generated/clientset"
 	k8s_io_kube_aggregator_pkg_client_clientset_generated_clientset_typed_apiregistration_v1 "k8s.io/kube-aggregator/pkg/client/clientset_generated/clientset/typed/apiregistration/v1"

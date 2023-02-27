@@ -3,11 +3,11 @@ package utils
 import (
 	"fmt"
 
-	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	"github.com/kyverno/kyverno/pkg/clients/dclient"
-	"github.com/kyverno/kyverno/pkg/config"
-	"github.com/kyverno/kyverno/pkg/engine"
-	"github.com/kyverno/kyverno/pkg/userinfo"
+	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	"github.com/nsathyaseelan/kyverno/pkg/clients/dclient"
+	"github.com/nsathyaseelan/kyverno/pkg/config"
+	"github.com/nsathyaseelan/kyverno/pkg/engine"
+	"github.com/nsathyaseelan/kyverno/pkg/userinfo"
 	admissionv1 "k8s.io/api/admission/v1"
 	rbacv1listers "k8s.io/client-go/listers/rbac/v1"
 )

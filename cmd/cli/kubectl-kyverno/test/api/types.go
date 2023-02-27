@@ -1,7 +1,7 @@
 package api
 
 import (
-	policyreportv1alpha2 "github.com/kyverno/kyverno/api/policyreport/v1alpha2"
+	policyreportv1alpha2 "github.com/nsathyaseelan/kyverno/api/policyreport/v1alpha2"
 	corev1 "k8s.io/api/core/v1"
 )
 

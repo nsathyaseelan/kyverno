@@ -1,7 +1,7 @@
 package store
 
 import (
-	"github.com/kyverno/kyverno/pkg/registryclient"
+	"github.com/nsathyaseelan/kyverno/pkg/registryclient"
 )
 
 type Context struct {

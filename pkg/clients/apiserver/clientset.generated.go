@@ -2,10 +2,10 @@ package clientset
 
 import (
 	"github.com/go-logr/logr"
-	apiextensionsv1 "github.com/kyverno/kyverno/pkg/clients/apiserver/apiextensionsv1"
-	apiextensionsv1beta1 "github.com/kyverno/kyverno/pkg/clients/apiserver/apiextensionsv1beta1"
-	discovery "github.com/kyverno/kyverno/pkg/clients/apiserver/discovery"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	apiextensionsv1 "github.com/nsathyaseelan/kyverno/pkg/clients/apiserver/apiextensionsv1"
+	apiextensionsv1beta1 "github.com/nsathyaseelan/kyverno/pkg/clients/apiserver/apiextensionsv1beta1"
+	discovery "github.com/nsathyaseelan/kyverno/pkg/clients/apiserver/discovery"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_apiextensions_apiserver_pkg_client_clientset_clientset "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
 	k8s_io_apiextensions_apiserver_pkg_client_clientset_clientset_typed_apiextensions_v1 "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1"
 	k8s_io_apiextensions_apiserver_pkg_client_clientset_clientset_typed_apiextensions_v1beta1 "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1"

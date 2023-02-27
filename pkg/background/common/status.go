@@ -1,10 +1,10 @@
 package common
 
 import (
-	kyvernov1 "github.com/kyverno/kyverno/api/kyverno/v1"
-	kyvernov1beta1 "github.com/kyverno/kyverno/api/kyverno/v1beta1"
-	"github.com/kyverno/kyverno/pkg/client/clientset/versioned"
-	kyvernov1beta1listers "github.com/kyverno/kyverno/pkg/client/listers/kyverno/v1beta1"
+	kyvernov1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1"
+	kyvernov1beta1 "github.com/nsathyaseelan/kyverno/api/kyverno/v1beta1"
+	"github.com/nsathyaseelan/kyverno/pkg/client/clientset/versioned"
+	kyvernov1beta1listers "github.com/nsathyaseelan/kyverno/pkg/client/listers/kyverno/v1beta1"
 )
 
 // StatusControlInterface provides interface to update status subresource

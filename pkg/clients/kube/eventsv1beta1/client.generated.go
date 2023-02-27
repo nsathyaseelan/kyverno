@@ -2,8 +2,8 @@ package client
 
 import (
 	"github.com/go-logr/logr"
-	events "github.com/kyverno/kyverno/pkg/clients/kube/eventsv1beta1/events"
-	"github.com/kyverno/kyverno/pkg/metrics"
+	events "github.com/nsathyaseelan/kyverno/pkg/clients/kube/eventsv1beta1/events"
+	"github.com/nsathyaseelan/kyverno/pkg/metrics"
 	k8s_io_client_go_kubernetes_typed_events_v1beta1 "k8s.io/client-go/kubernetes/typed/events/v1beta1"
 	"k8s.io/client-go/rest"
 )
